@@ -2,6 +2,15 @@
 error_reporting(0);
 
 $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
+
+define('STATIC_ROOT_PATH','http://am-shammel-130330120130.s3.amazonaws.com/shammel/www');
+define('IMAGE_PATH',STATIC_ROOT_PATH . '/img');
+define('CSS_PATH',STATIC_ROOT_PATH . '/css');
+define('JS_PATH',STATIC_ROOT_PATH . '/js');
+
+function get_image($image){return IMAGE_PATH . "/$image";}
+function get_css($css){return CSS_PATH . "/$css";}
+function get_js($js){return JS_PATH . "/$js";}
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -18,11 +27,12 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 		<meta name='apple-mobile-web-app-title' content='Shammel Lee' />
 		<meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
 		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600' rel='stylesheet' type='text/css'>
-		<link rel='stylesheet' href='css/bootstrap.min.css'>
-		<link rel='stylesheet' href='css/bootstrap-theme.min.css'>
-		<link rel='stylesheet' href='css/main.css'>
 
-		<script src='js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+    <link rel='stylesheet' href='<?= get_css("bootstrap.min.css") ?>'>
+    <link rel='stylesheet' href='<?= get_css("bootstrap-theme.min.css") ?>'>
+    <link rel='stylesheet' href='<?= get_css("main.css") ?>'>
+
+    <script src='<?= get_js("vendor/modernizr-2.6.2-respond-1.1.0.min.js") ?>'></script>
 	</head>
 	<body>
 		<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
@@ -61,7 +71,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			</div>
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/cinegram.gif' alt='Web: App Prototype' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("cinegram.gif") ?>' alt='Web: App Prototype' /></div>
 				<div class='col-md-3'>
 					<h3>Web App Prototype</h3>
 					<ul>
@@ -74,7 +84,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><a href='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/lotus_large.png' target='_blank'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/lotus.png' alt='Mobile: App Prototype' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='<?= get_image("lotus_large.png") ?>' target='_blank'><img class='img-responsive' src='<?= get_image("lotus.png") ?>' alt='Mobile: App Prototype' /></a></div>
 				<div class='col-md-3'>
 					<h3>Mobile App Prototype</h3>
 					<ul>
@@ -86,7 +96,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/bow_and_drape_kiosk_frontend.gif' alt='Mobile: B&amp;D Kiosk' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("bow_and_drape_kiosk_frontend.gif") ?>' alt='Mobile: B&amp;D Kiosk' /></div>
 				<div class='col-md-3'>
 					<h3>B&amp;D Kiosk Front-end</h3>
 					<ul>
@@ -99,7 +109,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/bow_and_drape_kiosk_backend.gif' alt='Web: B&amp;D Kiosk Back-end' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("bow_and_drape_kiosk_backend.gif") ?>' alt='Web: B&amp;D Kiosk Back-end' /></div>
 				<div class='col-md-3'>
 					<h3>B&amp;D Kiosk Back-end</h3>
 					<ul>
@@ -113,7 +123,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 
 			<div class='row'>
 				<!--<div class='col-md-7 col-md-offset-1'><a href='http://thetenusa.com/' target='_blank'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/theten.gif' width='650' alt='Web: theTEN' /></a></div>-->
-				<div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/theten.gif' width='650' alt='Web: theTEN' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("theten.gif") ?>' width='650' alt='Web: theTEN' /></div>
 				<div class='col-md-3'>
 					<h3>theTEN Website</h3>
 					<ul>
@@ -131,7 +141,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-7 col-md-offset-1'>
           <!--video only autoplays on mobile with muted and playsinline attributes-->
           <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Web App: File Manager'>
-            <source src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/fm.mp4' type='video/mp4'>
+            <source src='<?= get_image("fm.mp4") ?>' type='video/mp4'>
           </video>
         </div>
 				<div class='col-md-3'>
@@ -149,7 +159,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-7 col-md-offset-1'>
           <a href='http://shelleygoldberg.com/' target='_blank'>
             <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Web: Shelley Goldberg'> <!--video only autoplays on mobile with muted and playsinline attributes-->
-              <source src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/shelley_goldberg.mp4' type='video/mp4'>
+              <source src='<?= get_image("shelley_goldberg.mp4") ?>' type='video/mp4'>
             </video>
           </a>
         </div>
@@ -165,7 +175,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.html' target='_blank'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/app_concept_01.png' alt='Web: App Prototype' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.html' target='_blank'><img class='img-responsive' src='<?= get_image("app_concept_01.png") ?>' alt='Web: App Prototype' /></a></div>
 				<div class='col-md-3'>
 					<h3>Web App Prototype</h3>
 					<ul>
@@ -178,7 +188,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/vm_ubs.png' alt='Web App: Recruiting App' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("vm_ubs.png") ?>' alt='Web App: Recruiting App' /></div>
 				<div class='col-md-3'>
 					<h3>Recruiting App</h3>
 					<ul>
@@ -193,7 +203,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 
 			<?php if(!in_array('bbx',$HIDE_WORK)): ?>
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><a href='projects/amex/costco/business.html' rel='nofollow' target='_blank'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/amex_costco.png' alt='Web: AmEx Landing Page' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/amex/costco/business.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_image("amex_costco.png") ?>' alt='Web: AmEx Landing Page' /></a></div>
 				<div class='col-md-3'>
 					<h3>AmEx Landing Page</h3>
 					<ul>
@@ -205,7 +215,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><a href='projects/amex/cross_sell/index.html' rel='nofollow' target='_blank'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/amex_cross_sell.png' alt='Web: AmEx Landing Page' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/amex/cross_sell/index.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_image("amex_cross_sell.png") ?>' alt='Web: AmEx Landing Page' /></a></div>
 				<div class='col-md-3'>
 					<h3>AmEx Landing Page</h3>
 					<ul>
@@ -217,7 +227,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><a href='projects/amex/resource_center/index.html' rel='nofollow' target='_blank'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/amex_resource_center.png' alt='Web: AmEx Microsite' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/amex/resource_center/index.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_image("amex_resource_center.png") ?>' alt='Web: AmEx Microsite' /></a></div>
 				<div class='col-md-3'>
 					<h3>AmEx Microsite</h3>
 					<ul>
@@ -230,7 +240,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<?php endif; ?>
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/levinson_tractenberg.jpg' alt='Web: Levinson Tractenberg' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("levinson_tractenberg.jpg") ?>' alt='Web: Levinson Tractenberg' /></div>
 				<div class='col-md-3'>
 					<h3>Levinson Tractenberg Website</h3>
 					<ul>
@@ -242,7 +252,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/keggy.jpg' alt='Web: Keggy' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("keggy.jpg") ?>' alt='Web: Keggy' /></div>
 				<div class='col-md-3'>
 					<h3>Keggy Website</h3>
 					<ul>
@@ -256,7 +266,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/helen_wang.jpg' alt='Web: Helen Wang' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("helen_wang.jpg") ?>' alt='Web: Helen Wang' /></div>
 				<div class='col-md-3'>
 					<h3>Helen Wang Website</h3>
 					<ul>
@@ -270,7 +280,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/peter_han.jpg' alt='Web: Peter Han' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("peter_han.jpg") ?>' alt='Web: Peter Han' /></div>
 				<div class='col-md-3'>
 					<h3>Peter Han Website</h3>
 					<ul>
@@ -283,7 +293,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			<hr />
 
 			<div class='row'>
-				<div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/grand_large.jpg' alt='Web: Grand Large' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("grand_large.jpg") ?>' alt='Web: Grand Large' /></div>
 				<div class='col-md-3'>
 					<h3>Grand Large Website</h3>
 					<ul>
@@ -308,9 +318,9 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 			</div>
 		</div>
 		<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-		<script src='js/vendor/bootstrap.min.js'></script>
-		<script src='js/main.js'></script>
+    <script>window.jQuery || document.write('<script src="' + '<?= get_js("vendor/jquery-1.11.0.min.js") ?>' + '"><\/script>')</script>
+    <script src='<?= get_js("vendor/bootstrap.min.js") ?>'></script>
+    <script src='<?= get_js("main.js") ?>'></script>
 
 		<!-- Google Analytics -->
 		<script>
