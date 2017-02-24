@@ -1,0 +1,252 @@
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  transition: font-size 0.25s ease-in-out;
+}
+sup,
+sub {
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.4em;
+  font-size: 10px;
+}
+sub {
+  top: 0.4em;
+}
+.textCaps {
+  text-transform: uppercase;
+}
+.textUnderline {
+  text-decoration: underline;
+}
+.textCentered {
+  text-align: center;
+}
+.textRight {
+  text-align: right;
+}
+.textBold {
+  font-weight: bold;
+}
+.textOblique {
+  font-style: oblique;
+}
+.textDefault {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.textArial,
+.textArialBold,
+body {
+  font-family: Arial;
+}
+.textArialBold {
+  font-weight: bold;
+}
+.textTimes {
+  font-family: Times;
+}
+.textBentonSans {
+  font-family: 'BentonSans';
+}
+.textBentonSansBd {
+  font-family: 'BentonSans-Bd';
+}
+.textBentonSansBk,
+#heroTextShell #heroText .body {
+  font-family: 'BentonSans-Bk';
+}
+.textBentonSansLt {
+  font-family: 'BentonSans-Lt';
+}
+.textBentonSansMd,
+#heroTextShell #heroText .title {
+  font-family: 'BentonSans-Md';
+}
+body {
+  line-height: 1.4;
+}
+.textByzantium {
+  color: #76146f;
+}
+.textNavy {
+  color: #062363;
+}
+.textGrey {
+  color: #4d4f53;
+}
+.textWhite,
+#heroTextShell #heroText .title,
+#heroTextShell #heroText .body {
+  color: #fff;
+}
+.text-5Em {
+  font-size: 0.5em;
+}
+.text-6Em {
+  font-size: 0.6em;
+}
+.text-7Em {
+  font-size: 0.7em;
+}
+.text-8Em {
+  font-size: 0.8em;
+}
+.text-9Em {
+  font-size: 0.9em;
+}
+.text1Em {
+  font-size: 1em;
+}
+.text1-1Em {
+  font-size: 1.1em;
+}
+.text1-2Em {
+  font-size: 1.2em;
+}
+.text1-3Em {
+  font-size: 1.3em;
+}
+.text1-4Em {
+  font-size: 1.4em;
+}
+.text1-5Em {
+  font-size: 1.5em;
+}
+.text1-6Em {
+  font-size: 1.6em;
+}
+.text1-7Em {
+  font-size: 1.7em;
+}
+.text1-8Em {
+  font-size: 1.8em;
+}
+.text1-9Em {
+  font-size: 1.9em;
+}
+.text2Em {
+  font-size: 2em;
+}
+.text2-1Em {
+  font-size: 2.1em;
+}
+.text2-2Em {
+  font-size: 2.2em;
+}
+.text2-3Em {
+  font-size: 2.3em;
+}
+.text2-4Em {
+  font-size: 2.4em;
+}
+.text2-5Em {
+  font-size: 2.5em;
+}
+.text2-6Em {
+  font-size: 2.6em;
+}
+.text2-7Em {
+  font-size: 2.7em;
+}
+.text2-8Em {
+  font-size: 2.8em;
+}
+.text2-9Em {
+  font-size: 2.9em;
+}
+.text3Em {
+  font-size: 3em;
+}
+.category_shadow,.icon_category_title_arrow{
+	background-image: url('../img/categories.png?3186c6a0c8');
+	background-repeat: no-repeat;
+}
+
+.category_shadow{
+	background-position: 0 0;
+	height: 4px;
+	width: 520px;
+}
+.icon_category_title_arrow{
+	background-position: 0 -4px;
+	height: 13px;
+	width: 7px;
+}
+
+/*
+#heroTextShell
+	#heroText
+		h1.title!=DATA.categories.heroTitle
+		p.body!=DATA.categories.heroBody
+	.heroTextFooter
+*/
+#heroTextShell {
+  height: 190px;
+  overflow: hidden;
+  position: absolute;
+  right: 80px;
+  top: 115px;
+  width: 420px;
+}
+#heroTextShell #heroText {
+  background: #4d4f53;
+  height: 105px;
+  overflow: hidden;
+  padding: 13px 24px;
+}
+#heroTextShell #heroText .title {
+  font-size: 1.36em;
+  margin-bottom: 9px;
+}
+#heroTextShell #heroText .body {
+  font-size: 0.8em;
+  letter-spacing: 0.045em;
+  line-height: 1.6;
+}
+#heroTextShell .heroTextFooter {
+  background: #76146f url("../img/fillagree.png") no-repeat 0 0;
+  height: 59px;
+}
+#categoryList {
+  margin-top: 58px;
+}
+#categoryList .category {
+  padding-bottom: 46px;
+  padding-top: 1px;
+  position: relative;
+}
+#categoryList .category .categoryIcon {
+  display: inline-block;
+  height: 50px;
+  position: absolute;
+  top: 4px;
+  width: 57px;
+}
+#categoryList .category .categoryTitle {
+  margin-bottom: 12px;
+  margin-left: 76px;
+  width: 380px;
+}
+#categoryList .category .categoryTitle a {
+  background: #fff;
+}
+#categoryList .category .categoryTitle a .icon_category_title_arrow {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+#categoryList .category .categoryBody {
+  margin-left: 78px;
+  width: 380px;
+}
+#categoryList .category_shadow {
+  margin-bottom: 45px;
+}

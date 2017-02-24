@@ -1,0 +1,375 @@
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  transition: font-size 0.25s ease-in-out;
+}
+sup,
+sub {
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.4em;
+  font-size: 10px;
+}
+sub {
+  top: 0.4em;
+}
+.textCaps {
+  text-transform: uppercase;
+}
+.textUnderline,
+.resource .resourceUpperInfo .resourceAction .resourceActionLabel {
+  text-decoration: underline;
+}
+.textCentered {
+  text-align: center;
+}
+.textRight,
+#resourceSort {
+  text-align: right;
+}
+.textBold {
+  font-weight: bold;
+}
+.textOblique {
+  font-style: oblique;
+}
+.textDefault {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.textArial,
+.textArialBold,
+body {
+  font-family: Arial;
+}
+.textArialBold {
+  font-weight: bold;
+}
+.textTimes {
+  font-family: Times;
+}
+.textBentonSans {
+  font-family: 'BentonSans';
+}
+.textBentonSansBd {
+  font-family: 'BentonSans-Bd';
+}
+.textBentonSansBk,
+#resourceNav #text .body {
+  font-family: 'BentonSans-Bk';
+}
+.textBentonSansLt {
+  font-family: 'BentonSans-Lt';
+}
+.textBentonSansMd,
+#resourceNav #text .title {
+  font-family: 'BentonSans-Md';
+}
+body {
+  line-height: 1.4;
+}
+.textByzantium,
+.resource .resourceUpperInfo .resourceAction .resourceActionLabel {
+  color: #76146f;
+}
+.textNavy {
+  color: #062363;
+}
+.textGrey,
+#resourceSort .sortLabel,
+.resource .resourceLowerInfo .resourceMeta {
+  color: #4d4f53;
+}
+.textWhite,
+#resourceNav {
+  color: #fff;
+}
+.text-5Em {
+  font-size: 0.5em;
+}
+.text-6Em {
+  font-size: 0.6em;
+}
+.text-7Em {
+  font-size: 0.7em;
+}
+.text-8Em {
+  font-size: 0.8em;
+}
+.text-9Em {
+  font-size: 0.9em;
+}
+.text1Em {
+  font-size: 1em;
+}
+.text1-1Em {
+  font-size: 1.1em;
+}
+.text1-2Em {
+  font-size: 1.2em;
+}
+.text1-3Em {
+  font-size: 1.3em;
+}
+.text1-4Em {
+  font-size: 1.4em;
+}
+.text1-5Em {
+  font-size: 1.5em;
+}
+.text1-6Em {
+  font-size: 1.6em;
+}
+.text1-7Em {
+  font-size: 1.7em;
+}
+.text1-8Em {
+  font-size: 1.8em;
+}
+.text1-9Em {
+  font-size: 1.9em;
+}
+.text2Em {
+  font-size: 2em;
+}
+.text2-1Em {
+  font-size: 2.1em;
+}
+.text2-2Em {
+  font-size: 2.2em;
+}
+.text2-3Em {
+  font-size: 2.3em;
+}
+.text2-4Em {
+  font-size: 2.4em;
+}
+.text2-5Em {
+  font-size: 2.5em;
+}
+.text2-6Em {
+  font-size: 2.6em;
+}
+.text2-7Em {
+  font-size: 2.7em;
+}
+.text2-8Em {
+  font-size: 2.8em;
+}
+.text2-9Em {
+  font-size: 2.9em;
+}
+.text3Em {
+  font-size: 3em;
+}
+.icon_hero_right_arrow,.icon_hero_left_arrow,.resource_icon_video,.resource_icon_spreadsheet,.resource_icon_presentation,.resource_icon_pdf,.resource_icon_document,.icon_sort_favorite_inactive,.icon_sort_favorite_active,.icon_sort_date_inactive,.icon_sort_date_active,.resource_icon_link,.resource_icon_download,.resource_icon_visit_link,.resource_icon_play_video{
+	background-image: url('../img/resources.png?e5c37cf46f');
+	background-repeat: no-repeat;
+}
+
+.icon_hero_right_arrow{
+	background-position: 0 0;
+	height: 32px;
+	width: 11px;
+}
+.icon_hero_left_arrow{
+	background-position: -11px 0;
+	height: 32px;
+	width: 11px;
+}
+.resource_icon_video{
+	background-position: -22px 0;
+	height: 20px;
+	width: 21px;
+}
+.resource_icon_spreadsheet{
+	background-position: -43px 0;
+	height: 20px;
+	width: 20px;
+}
+.resource_icon_presentation{
+	background-position: 0 -32px;
+	height: 18px;
+	width: 20px;
+}
+.resource_icon_pdf{
+	background-position: -63px 0;
+	height: 20px;
+	width: 20px;
+}
+.resource_icon_document{
+	background-position: -63px -20px;
+	height: 20px;
+	width: 20px;
+}
+.icon_sort_favorite_inactive{
+	background-position: 0 -50px;
+	height: 20px;
+	width: 20px;
+}
+.icon_sort_favorite_active{
+	background-position: -20px -50px;
+	height: 20px;
+	width: 20px;
+}
+.icon_sort_date_inactive{
+	background-position: -40px -50px;
+	height: 20px;
+	width: 20px;
+}
+.icon_sort_date_active{
+	background-position: -60px -50px;
+	height: 20px;
+	width: 20px;
+}
+.resource_icon_link{
+	background-position: -63px -40px;
+	height: 10px;
+	width: 19px;
+}
+.resource_icon_download{
+	background-position: -20px -32px;
+	height: 15px;
+	width: 16px;
+}
+.resource_icon_visit_link{
+	background-position: -36px -32px;
+	height: 15px;
+	width: 15px;
+}
+.resource_icon_play_video{
+	background-position: -83px 0;
+	height: 15px;
+	width: 15px;
+}
+
+[class*=icon_hero_],
+[class*=icon_sort_],
+[class*=resource_icon_] {
+  display: inline-block;
+}
+#resourceNav {
+  background-color: #76146f;
+  height: 124px;
+  left: 40px;
+  overflow: hidden;
+  padding: 29px 0 31px;
+  position: absolute;
+  top: 109px;
+  width: 460px;
+}
+#resourceNav>a {
+  display: block;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  transition: background-color 0.25s;
+  width: 70px;
+  top: 0;
+}
+#resourceNav>a.prev {
+  left: 0;
+}
+#resourceNav>a.next {
+  right: 0;
+}
+#resourceNav>a:hover {
+  background-color: #63005b;
+}
+#resourceNav>a [class^=icon_hero_] {
+  margin-top: -16px;
+  position: relative;
+  top: 50%;
+}
+#resourceNav #text {
+  float: left;
+  left: 50%;
+  margin-left: -153px;
+  position: relative;
+  width: 306px;
+}
+#resourceNav #text .title {
+  font-size: 1.15em;
+  margin-bottom: 11px;
+}
+#resourceNav #text .body {
+  font-size: 0.85em;
+  letter-spacing: 0.001em;
+  line-height: 1.6;
+}
+#resourceSort {
+  margin-bottom: 38px;
+  margin-top: 25px;
+  width: 527px;
+}
+#resourceSort .sortLabel {
+  font-size: 0.75em;
+  position: relative;
+  top: -2px;
+}
+#resourceSort #sortItems {
+  float: right;
+}
+#resourceSort #sortItems li {
+  cursor: pointer;
+  float: left;
+  margin-left: 6px;
+}
+#sortByDate {
+  display: none;
+}
+.resource {
+  margin-bottom: 38px;
+  position: relative;
+}
+.resource .resourceIcon {
+  position: absolute;
+  left: -14px;
+}
+.resource .resourceUpperInfo,
+.resource .resourceLowerInfo {
+  margin-left: 19px;
+  width: 509px;
+}
+.resource .resourceUpperInfo {
+  margin-bottom: 5px;
+}
+.resource .resourceUpperInfo .resourceTitle {
+  font-size: 0.75em;
+  float: left;
+}
+.resource .resourceUpperInfo .resourceTitle a {
+  text-decoration: underline;
+}
+.resource .resourceUpperInfo .resourceAction {
+  float: right;
+}
+.resource .resourceUpperInfo .resourceAction .resourceActionLabel {
+  font-size: 0.75em;
+  position: relative;
+  top: -3px;
+}
+.resource .resourceUpperInfo .resourceAction .resourceActionIcon {
+  margin-left: 9px;
+  vertical-align: top;
+}
+.resource .resourceLowerInfo .resourceBody {
+  float: left;
+  width: 384px;
+}
+.resource .resourceLowerInfo .resourceMeta {
+  font-size: 0.75em;
+  float: right;
+  text-transform: uppercase;
+}
+.resource .resourceLowerInfo .resourceMeta span {
+  margin-left: 17px;
+}

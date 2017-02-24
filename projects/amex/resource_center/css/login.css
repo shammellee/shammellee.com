@@ -1,0 +1,242 @@
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  transition: font-size 0.25s ease-in-out;
+}
+sup,
+sub {
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.4em;
+  font-size: 10px;
+}
+sub {
+  top: 0.4em;
+}
+.textCaps {
+  text-transform: uppercase;
+}
+.textUnderline {
+  text-decoration: underline;
+}
+.textCentered {
+  text-align: center;
+}
+.textRight {
+  text-align: right;
+}
+.textBold {
+  font-weight: bold;
+}
+.textOblique,
+#loginPanelShell #loginPanel form .passcodeLabel .errorMessage {
+  font-style: oblique;
+}
+.textDefault {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.textArial,
+.textArialBold,
+body,
+#loginPanelShell #loginPanel .loginTitle {
+  font-family: Arial;
+}
+.textArialBold,
+#loginPanelShell #loginPanel .loginTitle {
+  font-weight: bold;
+}
+.textTimes {
+  font-family: Times;
+}
+.textBentonSans {
+  font-family: 'BentonSans';
+}
+.textBentonSansBd {
+  font-family: 'BentonSans-Bd';
+}
+.textBentonSansBk {
+  font-family: 'BentonSans-Bk';
+}
+.textBentonSansLt {
+  font-family: 'BentonSans-Lt';
+}
+.textBentonSansMd {
+  font-family: 'BentonSans-Md';
+}
+body {
+  line-height: 1.4;
+}
+.textByzantium,
+#loginPanelShell #loginPanel .loginTitle {
+  color: #76146f;
+}
+.textNavy {
+  color: #062363;
+}
+.textGrey,
+#loginPanelShell #loginPanel .loginBody,
+#loginPanelShell #loginPanel form .passcodeLabel,
+#loginPanelShell #loginPanel form #PasswordTextbox,
+#loginPanelShell #loginPanel .finePrint {
+  color: #4d4f53;
+}
+.textWhite {
+  color: #fff;
+}
+.text-5Em {
+  font-size: 0.5em;
+}
+.text-6Em {
+  font-size: 0.6em;
+}
+.text-7Em {
+  font-size: 0.7em;
+}
+.text-8Em {
+  font-size: 0.8em;
+}
+.text-9Em {
+  font-size: 0.9em;
+}
+.text1Em {
+  font-size: 1em;
+}
+.text1-1Em {
+  font-size: 1.1em;
+}
+.text1-2Em {
+  font-size: 1.2em;
+}
+.text1-3Em {
+  font-size: 1.3em;
+}
+.text1-4Em {
+  font-size: 1.4em;
+}
+.text1-5Em {
+  font-size: 1.5em;
+}
+.text1-6Em {
+  font-size: 1.6em;
+}
+.text1-7Em {
+  font-size: 1.7em;
+}
+.text1-8Em {
+  font-size: 1.8em;
+}
+.text1-9Em {
+  font-size: 1.9em;
+}
+.text2Em {
+  font-size: 2em;
+}
+.text2-1Em {
+  font-size: 2.1em;
+}
+.text2-2Em {
+  font-size: 2.2em;
+}
+.text2-3Em {
+  font-size: 2.3em;
+}
+.text2-4Em {
+  font-size: 2.4em;
+}
+.text2-5Em {
+  font-size: 2.5em;
+}
+.text2-6Em {
+  font-size: 2.6em;
+}
+.text2-7Em {
+  font-size: 2.7em;
+}
+.text2-8Em {
+  font-size: 2.8em;
+}
+.text2-9Em {
+  font-size: 2.9em;
+}
+.text3Em {
+  font-size: 3em;
+}
+#background {
+  background: url("../img/login_background.jpg");
+  height: 600px;
+}
+#loginPanelShell {
+  font-size: 0.75em;
+  height: 311px;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 470px;
+  margin-left: -235px;
+  margin-top: -155.5px;
+  top: 50%;
+}
+#loginPanelShell #loginPanel {
+  background: #fafafa;
+  border: 1px solid transparent;
+  display: block;
+  height: 100%;
+  padding: 28px;
+}
+#loginPanelShell #loginPanel.error {
+  border-color: #898989;
+}
+#loginPanelShell #loginPanel .loginTitle {
+  font-size: 1.3em;
+  letter-spacing: 0.014em;
+  margin-bottom: 12px;
+  margin-top: -4px;
+}
+#loginPanelShell #loginPanel .loginBody {
+  font-size: 1em;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+#loginPanelShell #loginPanel form {
+  margin-bottom: 12px;
+}
+#loginPanelShell #loginPanel form .passcodeLabel {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 3px;
+  margin-left: 1px;
+}
+#loginPanelShell #loginPanel form .passcodeLabel .errorMessage {
+  color: #9e0b0f;
+  margin-left: 40px;
+}
+#loginPanelShell #loginPanel form #PasswordTextbox {
+  border: 1px solid #a0a0a0;
+  letter-spacing: 0.15em;
+  line-height: 2.4;
+  margin-left: 1px;
+  margin-right: 8px;
+  padding: 0 6px;
+  width: 298px;
+}
+#loginPanelShell #loginPanel form #PasswordTextbox.error {
+  color: #cf8587;
+  border-color: #9e0b0f;
+}
+#loginPanelShell #loginPanel .finePrint {
+  font-size: 0.7em;
+  line-height: 1.33;
+}
+#loginPanelShell #loginPanel .finePrintSeparator {
+  border-bottom: 1px solid #cbcbcb;
+  margin: 13px 0 17px;
+}
