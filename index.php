@@ -308,13 +308,13 @@ function get_js($js){return JS_PATH . "/$js";}
 		<div class='container-fluid blurbsFooter'>
 			<div class='container'>
 				<ul class='list-inline text-center infoLinks'>
-					<li><a class='btn btn-primary btn-sm' href='mailt&#111;&#58;%&#54;8&#111;%&#54;&#67;le%&#55;&#50;&#64;s&#104;%61m&#109;ell&#37;65&#37;65&#46;co&#109;'>&#69;m&#97;il</a></li>
 					<li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://github.shammellee.com' target='_blank'>GitHub</a></li>
 					<li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://stackoverflow.com/users/3682217/shammel-lee' target='_blank'>Stack Overflow</a></li>
 					<li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://dribbble.shammellee.com' target='_blank'>Dribbble</a></li>
 					<li><a class='btn btn-primary btn-sm' rel='nofollow' href='resume/' target='_blank'>Resumé</a></li>
 					<li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://linkedin.shammellee.com' target='_blank'>LinkedIn</a></li>
 					<li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://twitter.shammellee.com' target='_blank'>Twitter</a></li>
+					<li><a class='btn btn-primary btn-sm' href='mailt&#111;&#58;%&#54;8&#111;%&#54;&#67;le%&#55;&#50;&#64;s&#104;%61m&#109;ell&#37;65&#37;65&#46;co&#109;'>&#69;m&#97;il</a></li>
 				</ul>
 			</div>
 		</div>
