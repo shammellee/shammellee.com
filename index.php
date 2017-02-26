@@ -3,10 +3,10 @@ error_reporting(0);
 
 $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 
-define('STATIC_ROOT_PATH','http://am-shammel-130330120130.s3.amazonaws.com/shammel/www');
-define('IMAGE_PATH',STATIC_ROOT_PATH . '/img');
-define('CSS_PATH',STATIC_ROOT_PATH . '/css');
-define('JS_PATH',STATIC_ROOT_PATH . '/js');
+define('S3_BUCKET','http://shammellee.com.s3.amazonaws.com');
+define('IMAGE_PATH',S3_BUCKET . '/img');
+define('CSS_PATH',S3_BUCKET . '/css');
+define('JS_PATH',S3_BUCKET . '/js');
 
 function get_image($image){return IMAGE_PATH . "/$image";}
 function get_css($css){return CSS_PATH . "/$css";}
