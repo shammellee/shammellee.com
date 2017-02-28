@@ -1,11 +1,4 @@
 .DS_Store
 *.bak
 *.sw[op]
-clients
-compstak
-data
-gallery
-karbon
-raphael
-tmp
-view
+logs
