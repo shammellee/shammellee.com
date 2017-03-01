@@ -6,7 +6,7 @@ require '../inc/config.php';
 	<head>
 		<meta charset="utf-8">
 		<title>Shammel Lee — Resumé</title>
-    <meta http-equiv="refresh" content="1;url=<?= get_doc("shammel_lee_resume.pdf") ?>">
+    <meta http-equiv="refresh" content="1;url=<?= get_doc("shammel_lee_resume_20170228193234.pdf") ?>">
 		<meta name="description" content="Shammel Lee">
 		<style type="text/css">
 			html,body{background:#30333A;color:#B0B2B4;font:12px Helvetica,Arial,'sans-serif';}
@@ -15,7 +15,7 @@ require '../inc/config.php';
 	</head>
 	<body>
 		<h1>Loading&hellip;</h1>
-		<p>Click <a href='<?= get_doc("shammel_lee_resume.pdf") ?>'>here</a> if you are not redirected within 5 seconds.</p>
+		<p>Click <a href='<?= get_doc("shammel_lee_resume_20170228193234.pdf") ?>'>here</a> if you are not redirected within 5 seconds.</p>
 
 		<!-- Start of StatCounter Code for Default Guide -->
 		<script type="text/javascript">
