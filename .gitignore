@@ -3,3 +3,4 @@
 *.sw[op]
 *.log
 *.env
+.vagrant
