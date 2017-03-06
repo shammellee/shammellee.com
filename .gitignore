@@ -1,4 +1,5 @@
 .DS_Store
 *.bak
 *.sw[op]
-logs
+*.log
+*.env
