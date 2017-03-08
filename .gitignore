@@ -1,6 +1,7 @@
 .DS_Store
 *.bak
-*.sw[op]
-*.log
 *.env
+*.log
+*.sw[op]
+*.vim
 .vagrant
