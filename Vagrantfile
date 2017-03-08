@@ -14,7 +14,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  config.vm.network "public_network",bridge:"en0: Ethernet 1"
+  config.vm.network "public_network",bridge:"en0: Ethernet 1",ip:ENV['SL_DEVELOPMENT_HOST']
 
   #config.vm.synced_folder ".","/vagrant",disabled:true
 end
