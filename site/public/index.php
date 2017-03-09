@@ -113,21 +113,6 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 
       <hr />
 
-      <div class='row'>
-        <!--<div class='col-md-7 col-md-offset-1'><a href='http://thetenusa.com/' target='_blank'><img class='img-responsive' src='http://am-shammel-130330120130.s3.amazonaws.com/shammel/www/img/theten.gif' width='650' alt='Web: theTEN' /></a></div>-->
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("theten.gif") ?>' width='650' alt='Web: theTEN' /></div>
-        <div class='col-md-3'>
-          <h3>theTEN Website</h3>
-          <ul>
-            <li>Retouching</li>
-            <li>Design</li>
-            <li>Development</li>
-          </ul>
-        </div>
-      </div>
-
-      <hr />
-
       <?php if(!in_array('edu',$HIDE_WORK)): ?>
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'>
@@ -171,6 +156,20 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-3'>
           <h3>Web App Prototype</h3>
           <ul>
+            <li>Design</li>
+            <li>Development</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class='row'>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("theten.gif") ?>' alt='Web: theTEN' /></div>
+        <div class='col-md-3'>
+          <h3>theTEN Website</h3>
+          <ul>
+            <li>Retouching</li>
             <li>Design</li>
             <li>Development</li>
           </ul>
