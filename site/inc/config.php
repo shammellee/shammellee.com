@@ -7,7 +7,7 @@ define('CSS_PATH',STATIC_ASSET_PATH . '/css');
 define('JS_PATH',STATIC_ASSET_PATH . '/js');
 define('DOC_PATH',STATIC_ASSET_PATH . '/docs');
 
-function get_image($image)
+function get_media($image)
 {
   return IMAGE_PATH . "/$image";
 }

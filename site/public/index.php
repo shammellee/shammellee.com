@@ -48,7 +48,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         </div>
         <div class='row'>
           <div class='col-md-5 col-md-offset-1'>
-          <div class=''><img class='img-responsive' src='<?= get_image("experience_map.jpg") ?>' alt='Web: App Prototype' /></div>
+          <div class=''><img class='img-responsive' src='<?= get_media("experience_map.jpg") ?>' alt='Web: App Prototype' /></div>
             <br />
           </div>
           <div class='col-md-5'>
@@ -67,7 +67,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       </div>
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("cinegram.gif") ?>' alt='Web: App Prototype' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("cinegram.gif") ?>' alt='Web: App Prototype' /></div>
         <div class='col-md-3'>
           <h3>Web App Prototype</h3>
           <ul>
@@ -80,7 +80,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><a href='<?= get_image("lotus_large.png") ?>' target='_blank'><img class='img-responsive' src='<?= get_image("lotus.png") ?>' alt='Mobile: App Prototype' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='<?= get_media("lotus_large.png") ?>' target='_blank'><img class='img-responsive' src='<?= get_media("lotus.png") ?>' alt='Mobile: App Prototype' /></a></div>
         <div class='col-md-3'>
           <h3>Mobile App Prototype</h3>
           <ul>
@@ -92,7 +92,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("bow_and_drape_kiosk_frontend.gif") ?>' alt='Mobile: B&amp;D Kiosk' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("bow_and_drape_kiosk_frontend.gif") ?>' alt='Mobile: B&amp;D Kiosk' /></div>
         <div class='col-md-3'>
           <h3>B&amp;D Kiosk Front-end</h3>
           <ul>
@@ -105,7 +105,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("bow_and_drape_kiosk_backend.gif") ?>' alt='Web: B&amp;D Kiosk Back-end' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("bow_and_drape_kiosk_backend.gif") ?>' alt='Web: B&amp;D Kiosk Back-end' /></div>
         <div class='col-md-3'>
           <h3>B&amp;D Kiosk Back-end</h3>
           <ul>
@@ -122,7 +122,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-7 col-md-offset-1'>
           <!--video only autoplays on mobile with muted and playsinline attributes-->
           <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Web App: File Manager'>
-            <source src='<?= get_image("fm.mp4") ?>' type='video/mp4'>
+            <source src='<?= get_media("fm.mp4") ?>' type='video/mp4'>
           </video>
         </div>
         <div class='col-md-3'>
@@ -140,7 +140,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-7 col-md-offset-1'>
           <a href='http://shelleygoldberg.com/' target='_blank'>
             <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Web: Shelley Goldberg'> <!--video only autoplays on mobile with muted and playsinline attributes-->
-              <source src='<?= get_image("shelley_goldberg.mp4") ?>' type='video/mp4'>
+              <source src='<?= get_media("shelley_goldberg.mp4") ?>' type='video/mp4'>
             </video>
           </a>
         </div>
@@ -156,7 +156,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.html' target='_blank'><img class='img-responsive' src='<?= get_image("app_concept_01.png") ?>' alt='Web: App Prototype' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.html' target='_blank'><img class='img-responsive' src='<?= get_media("app_concept_01.png") ?>' alt='Web: App Prototype' /></a></div>
         <div class='col-md-3'>
           <h3>Web App Prototype</h3>
           <ul>
@@ -169,7 +169,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("theten.gif") ?>' alt='Web: theTEN' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("theten.gif") ?>' alt='Web: theTEN' /></div>
         <div class='col-md-3'>
           <h3>theTEN Website</h3>
           <ul>
@@ -183,7 +183,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("vm_ubs.png") ?>' alt='Web App: Recruiting App' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("vm_ubs.png") ?>' alt='Web App: Recruiting App' /></div>
         <div class='col-md-3'>
           <h3>Recruiting App</h3>
           <ul>
@@ -198,7 +198,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 
       <?php if(!in_array('bbx',$HIDE_WORK)): ?>
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><a href='projects/amex/costco/business.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_image("amex_costco.png") ?>' alt='Web: AmEx Landing Page' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/amex/costco/business.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_media("amex_costco.png") ?>' alt='Web: AmEx Landing Page' /></a></div>
         <div class='col-md-3'>
           <h3>AmEx Landing Page</h3>
           <ul>
@@ -210,7 +210,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><a href='projects/amex/cross_sell/index.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_image("amex_cross_sell.png") ?>' alt='Web: AmEx Landing Page' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/amex/cross_sell/index.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_media("amex_cross_sell.png") ?>' alt='Web: AmEx Landing Page' /></a></div>
         <div class='col-md-3'>
           <h3>AmEx Landing Page</h3>
           <ul>
@@ -222,7 +222,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><a href='projects/amex/resource_center/index.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_image("amex_resource_center.png") ?>' alt='Web: AmEx Microsite' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/amex/resource_center/index.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_media("amex_resource_center.png") ?>' alt='Web: AmEx Microsite' /></a></div>
         <div class='col-md-3'>
           <h3>AmEx Microsite</h3>
           <ul>
@@ -235,7 +235,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <?php endif; ?>
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("levinson_tractenberg.jpg") ?>' alt='Web: Levinson Tractenberg' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("levinson_tractenberg.jpg") ?>' alt='Web: Levinson Tractenberg' /></div>
         <div class='col-md-3'>
           <h3>Levinson Tractenberg Website</h3>
           <ul>
@@ -247,7 +247,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("keggy.jpg") ?>' alt='Web: Keggy' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("keggy.jpg") ?>' alt='Web: Keggy' /></div>
         <div class='col-md-3'>
           <h3>Keggy Website</h3>
           <ul>
@@ -261,7 +261,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("helen_wang.jpg") ?>' alt='Web: Helen Wang' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("helen_wang.jpg") ?>' alt='Web: Helen Wang' /></div>
         <div class='col-md-3'>
           <h3>Helen Wang Website</h3>
           <ul>
@@ -275,7 +275,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("peter_han.jpg") ?>' alt='Web: Peter Han' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("peter_han.jpg") ?>' alt='Web: Peter Han' /></div>
         <div class='col-md-3'>
           <h3>Peter Han Website</h3>
           <ul>
@@ -288,7 +288,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_image("grand_large.jpg") ?>' alt='Web: Grand Large' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("grand_large.jpg") ?>' alt='Web: Grand Large' /></div>
         <div class='col-md-3'>
           <h3>Grand Large Website</h3>
           <ul>
