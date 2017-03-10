@@ -14,7 +14,7 @@ require '../inc/config.php';
     </style>
   </head>
   <body>
-    <h1>Loading&hellip;</h1>
+    <h1>One moment&hellip;</h1>
     <p>Click <a href='<?= get_doc("shammel_lee_resume_20170228193234.pdf") ?>'>here</a> if you are not redirected within 5 seconds.</p>
 
     <!-- Google Analytics -->
