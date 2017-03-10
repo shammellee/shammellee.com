@@ -48,9 +48,11 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         </div>
         <div class='row'>
           <div class='col-md-5 col-md-offset-1'>
-            <p>Engineering is linked with “left brain” thinking and design with “right brain” thinking. However, the best solution to any problem comes from combining both forms of thinking. A designer who is adept in engineering can create more thorough, feasible designs for that product. Similarly, an engineer with a design background will be able to create a more intuitive and visually appealing product.</p>
+          <div class=''><img class='img-responsive' src='<?= get_image("experience_map.jpg") ?>' alt='Web: App Prototype' /></div>
+            <br />
           </div>
           <div class='col-md-5'>
+            <p>Engineering is linked with “left brain” thinking and design, with “right brain” thinking. However, the best solution to any problem comes from combining both forms of thinking. A designer who is adept in engineering can create more thorough, feasible designs for that product. Similarly, an engineer with a design background will be able to create a more intuitive and visually appealing product.</p>
             <p>Having a deep understanding of both form and function and being able to speak the language of both the designer and the engineer allows products to be implemented exactly as they were envisioned, thereby eliminating the communication barrier that typically exists when building products. This prevents information from being misinterpreted and results in clear, focused, highly polished products.</p>
           </div>
         </div> 
