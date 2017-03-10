@@ -50,7 +50,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         </div>
         <div class='row'>
           <div class='col-md-5 col-md-offset-1'>
-          <div class=''><img class='img-responsive' src='<?= get_media("experience_map.jpg") ?>' alt='Web: App Prototype' /></div>
+          <div class=''><img class='img-responsive' src='<?= get_media("experience_map.jpg") ?>' alt='Experience Map' /></div>
             <br />
           </div>
           <div class='col-md-5'>
