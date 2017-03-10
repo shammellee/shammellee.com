@@ -137,6 +137,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       </div>
 
       <hr />
+      <?php endif; ?>
 
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'>
@@ -157,37 +158,11 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 
       <hr />
 
+      <?php if(!in_array('edu',$HIDE_WORK)): ?>
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.html' target='_blank'><img class='img-responsive' src='<?= get_media("app_concept_01.png") ?>' alt='Web: App Prototype' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("vm_ubs.png") ?>' alt='Web App: Financial Recruiting App' /></div>
         <div class='col-md-3'>
-          <h3>Web App Prototype</h3>
-          <ul>
-            <li>Design</li>
-            <li>Development</li>
-          </ul>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("theten.gif") ?>' alt='Web: theTEN' /></div>
-        <div class='col-md-3'>
-          <h3>theTEN Website</h3>
-          <ul>
-            <li>Retouching</li>
-            <li>Design</li>
-            <li>Development</li>
-          </ul>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("vm_ubs.png") ?>' alt='Web App: Recruiting App' /></div>
-        <div class='col-md-3'>
-          <h3>Recruiting App</h3>
+          <h3>Financial Recruiting App</h3>
           <ul>
             <li>Design</li>
             <li>Development</li>
@@ -235,6 +210,33 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 
       <hr />
       <?php endif; ?>
+
+      <div class='row'>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.html' target='_blank'><img class='img-responsive' src='<?= get_media("app_concept_01.png") ?>' alt='Web: App Prototype' /></a></div>
+        <div class='col-md-3'>
+          <h3>Web App Prototype</h3>
+          <ul>
+            <li>Design</li>
+            <li>Development</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class='row'>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("theten.gif") ?>' alt='Web: theTEN' /></div>
+        <div class='col-md-3'>
+          <h3>theTEN Website</h3>
+          <ul>
+            <li>Retouching</li>
+            <li>Design</li>
+            <li>Development</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
 
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("levinson_tractenberg.jpg") ?>' alt='Web: Levinson Tractenberg' /></div>
