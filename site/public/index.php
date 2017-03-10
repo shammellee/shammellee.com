@@ -40,7 +40,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
     </div>
 
     <div class='container-fluid blurbs'>
-      <div class='container'>
+      <div class='container about_section'>
         <div class='row'>
           <div class='col-md-10 col-md-offset-1'>
             <h2>About</h2>
@@ -59,9 +59,11 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       </div>
     </div>
 
-    <div class='container workSection web'>
+    <div class='container work_section web'>
       <div class='row'>
-        <div class='col-md-10 col-md-offset-1'><h2>Selected Work</h2></div>
+        <div class='col-md-10 col-md-offset-1'>
+          <h2>Selected Work</h2>
+        </div>
       </div>
 
       <div class='row'>
