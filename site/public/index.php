@@ -212,7 +212,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <?php endif; ?>
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.html' target='_blank'><img class='img-responsive' src='<?= get_media("app_concept_01.png") ?>' alt='Web: App Prototype' /></a></div>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.php' target='_blank'><img class='img-responsive' src='<?= get_media("app_concept_01.png") ?>' alt='Web: App Prototype' /></a></div>
         <div class='col-md-3'>
           <h3>Web App Prototype</h3>
           <ul>
