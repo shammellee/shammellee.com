@@ -1,8 +1,8 @@
 <?php
 error_reporting(0);
 
-define('STATIC_ASSET_PATH','http://static.shammellee.com');
-define('IMAGE_PATH',STATIC_ASSET_PATH . '/img');
+define('STATIC_ASSET_PATH','http://static.shammellee.com/20170310_062318');
+define('IMAGE_PATH',STATIC_ASSET_PATH . '/media');
 define('CSS_PATH',STATIC_ASSET_PATH . '/css');
 define('JS_PATH',STATIC_ASSET_PATH . '/js');
 define('DOC_PATH',STATIC_ASSET_PATH . '/docs');
