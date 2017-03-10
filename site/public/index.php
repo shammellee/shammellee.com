@@ -123,7 +123,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'>
           <!--video only autoplays on mobile with muted and playsinline attributes-->
-          <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Web App: File Manager'>
+          <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Web App: Cloud File Manager'>
             <source src='<?= get_media("fm.mp4") ?>' type='video/mp4'>
           </video>
         </div>
