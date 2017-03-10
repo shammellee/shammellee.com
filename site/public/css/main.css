@@ -12,9 +12,9 @@ h2.subhead{font-family:'Titillium Web','sans-serif';font-size:1.1em;line-height:
 .infoLinks li{margin-bottom:20px;}
 .blurbs{background:#EEEFF1;padding:15px;margin-bottom:30px;}
 .blurbsFooter{background:#EEEFF1;padding:50px 15px 15px;margin-bottom:0px;}
-.blurbs h2,.workSection h2,.workSection h3{font-family:'Titillium Web','sans-serif';font-weight:600;}
-.workSection{padding-bottom:30px;}
-.workSection h2{margin-bottom:50px;}
-.workSection.web ul{list-style:none;padding:0}
+.blurbs h2,.work_section h2,.work_section h3{font-family:'Titillium Web','sans-serif';font-weight:600;}
+.work_section{padding-bottom:30px;}
+.about_section h2,.work_section h2{margin-bottom:50px;}
+.work_section.web ul{list-style:none;padding:0}
 .project_img{width:650px}
 .navbar{margin-bottom:0}
