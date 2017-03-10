@@ -139,6 +139,27 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
       <?php endif; ?>
 
+      <?php if(!in_array('edu',$HIDE_WORK)): ?>
+      <div class='row'>
+        <div class='col-md-7 col-md-offset-1'>
+          <!--video only autoplays on mobile with muted and playsinline attributes-->
+          <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Motion Design: Financial Onboarding Site'>
+            <source src='<?= get_media("merrillvision_onboarding.mp4") ?>' type='video/mp4'>
+          </video>
+        </div>
+        <div class='col-md-3'>
+          <h3>Financial Onboarding Site</h3>
+          <ul>
+            <li>Design</li>
+            <li>Development</li>
+            <li>Motion Design</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+      <?php endif; ?>
+
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'>
           <a href='http://shelleygoldberg.com/' target='_blank'>
