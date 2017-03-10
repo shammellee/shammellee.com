@@ -84,9 +84,9 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       </div>
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("cinegram.gif") ?>' alt='Web: App Prototype' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("cinegram.gif") ?>' alt='Web: Movie Rating App Prototype' /></div>
         <div class='col-md-3'>
-          <h3>Web App Prototype</h3>
+          <h3>Movie Rating App Prototype</h3>
           <ul>
             <li>Design</li>
             <li>Development</li>
@@ -158,12 +158,12 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'>
           <!--video only autoplays on mobile with muted and playsinline attributes-->
-          <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Motion Design: Financial Onboarding Site'>
+          <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Motion Design: Financial Recruiting App Onboarding Site'>
             <source src='<?= get_media("merrillvision_onboarding.mp4") ?>' type='video/mp4'>
           </video>
         </div>
         <div class='col-md-3'>
-          <h3>Financial Onboarding Site</h3>
+          <h3>Onboarding Website</h3>
           <ul>
             <li>Design</li>
             <li>Development</li>
@@ -174,25 +174,6 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 
       <hr />
       <?php endif; ?>
-
-      <div class='row'>
-        <div class='col-md-7 col-md-offset-1'>
-          <a href='http://shelleygoldberg.com/' target='_blank'>
-            <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Web: Shelley Goldberg'> <!--video only autoplays on mobile with muted and playsinline attributes-->
-              <source src='<?= get_media("shelley_goldberg.mp4") ?>' type='video/mp4'>
-            </video>
-          </a>
-        </div>
-        <div class='col-md-3'>
-          <h3>Shelley Goldberg Website</h3>
-          <ul>
-            <li>Development</li>
-            <li>CMS Development</li>
-          </ul>
-        </div>
-      </div>
-
-      <hr />
 
       <?php if(!in_array('edu',$HIDE_WORK)): ?>
       <div class='row'>
@@ -248,9 +229,28 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <?php endif; ?>
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.php' target='_blank'><img class='img-responsive' src='<?= get_media("app_concept_01.png") ?>' alt='Web: App Prototype' /></a></div>
+        <div class='col-md-7 col-md-offset-1'>
+          <a href='http://shelleygoldberg.com/' target='_blank'>
+            <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Web: Shelley Goldberg'> <!--video only autoplays on mobile with muted and playsinline attributes-->
+              <source src='<?= get_media("shelley_goldberg.mp4") ?>' type='video/mp4'>
+            </video>
+          </a>
+        </div>
         <div class='col-md-3'>
-          <h3>Web App Prototype</h3>
+          <h3>Shelley Goldberg Website</h3>
+          <ul>
+            <li>Development</li>
+            <li>CMS Development</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class='row'>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.php' target='_blank'><img class='img-responsive' src='<?= get_media("app_concept_01.png") ?>' alt='Web: Real Estate App Prototype' /></a></div>
+        <div class='col-md-3'>
+          <h3>Real Estate App Prototype</h3>
           <ul>
             <li>Design</li>
             <li>Development</li>
