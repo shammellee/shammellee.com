@@ -74,6 +74,8 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
           </div>
         </div> 
       </div>
+
+      <span class='about_pull_tab'>&nbsp;</span>
     </div>
 
     <div class='container work_section web'>
