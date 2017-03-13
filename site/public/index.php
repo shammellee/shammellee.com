@@ -86,7 +86,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("cinegram.gif") ?>' alt='Web: Movie Rating App Prototype' /></div>
         <div class='col-md-3'>
-          <h3>Movie Rating App Prototype</h3>
+          <h3>Movie Rating App</h3>
           <ul>
             <li>Design</li>
             <li>Development</li>
@@ -99,7 +99,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><a href='<?= get_media("lotus_large.png") ?>' target='_blank'><img class='img-responsive' src='<?= get_media("lotus.png") ?>' alt='Mobile: App Prototype' /></a></div>
         <div class='col-md-3'>
-          <h3>Mobile App Prototype</h3>
+          <h3>Fashion Trend App</h3>
           <ul>
             <li>Design</li>
           </ul>
@@ -179,7 +179,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("vm_ubs.png") ?>' alt='Web App: Financial Recruiting App' /></div>
         <div class='col-md-3'>
-          <h3>Financial Recruiting App</h3>
+          <h3>Financial Recruiting Platform</h3>
           <ul>
             <li>Design</li>
             <li>Development</li>
