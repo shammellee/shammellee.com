@@ -138,7 +138,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'>
           <!--video only autoplays on mobile with muted and playsinline attributes-->
-          <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Web App: Cloud File Manager'>
+          <video class='img-responsive' width='650' height='488' autoplay controls loop muted playsinline alt='Web App: Cloud File Manager'>
             <source src='<?= get_media("fm.mp4") ?>' type='video/mp4'>
           </video>
         </div>
@@ -158,7 +158,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'>
           <!--video only autoplays on mobile with muted and playsinline attributes-->
-          <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Motion Design: Financial Recruiting App Onboarding Site'>
+          <video class='img-responsive' width='650' height='488' autoplay controls loop muted playsinline alt='Motion Design: Financial Recruiting App Onboarding Site'>
             <source src='<?= get_media("merrillvision_onboarding.mp4") ?>' type='video/mp4'>
           </video>
         </div>
@@ -229,9 +229,22 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <?php endif; ?>
 
       <div class='row'>
+        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.php' target='_blank'><img class='img-responsive' src='<?= get_media("app_concept_01.png") ?>' alt='Web: Real Estate App Prototype' /></a></div>
+        <div class='col-md-3'>
+          <h3>Real Estate App Prototype</h3>
+          <ul>
+            <li>Design</li>
+            <li>Development</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class='row'>
         <div class='col-md-7 col-md-offset-1'>
           <a href='http://shelleygoldberg.com/' target='_blank'>
-            <video class='img-responsive' width='650' height='488' autoplay loop muted playsinline alt='Web: Shelley Goldberg'> <!--video only autoplays on mobile with muted and playsinline attributes-->
+            <video class='img-responsive' width='650' height='488' autoplay controls loop muted playsinline alt='Web: Shelley Goldberg'> <!--video only autoplays on mobile with muted and playsinline attributes-->
               <source src='<?= get_media("shelley_goldberg.mp4") ?>' type='video/mp4'>
             </video>
           </a>
@@ -241,19 +254,6 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
           <ul>
             <li>Development</li>
             <li>CMS Development</li>
-          </ul>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.php' target='_blank'><img class='img-responsive' src='<?= get_media("app_concept_01.png") ?>' alt='Web: Real Estate App Prototype' /></a></div>
-        <div class='col-md-3'>
-          <h3>Real Estate App Prototype</h3>
-          <ul>
-            <li>Design</li>
-            <li>Development</li>
           </ul>
         </div>
       </div>
