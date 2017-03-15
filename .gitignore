@@ -4,4 +4,6 @@
 *.log
 *.sw[op]
 *.vim
+*.pub
+*.pem
 .vagrant
