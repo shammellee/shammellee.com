@@ -358,6 +358,17 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
     <script src='<?= get_js("vendor/bootstrap.min.js") ?>'></script>
     <script src='<?= get_js("main.js") ?>'></script>
+    <script>
+      $(function()
+      {
+        $.getJSON('http://freegeoip.net/json/',function(result){
+          if(result && result.country_code !== 'US')
+          {
+            alert('This site is limited to viewers in the United States.');
+          }
+        });
+      });
+    </script>
 
     <!-- Google Analytics -->
     <?php require '../inc/google_analytics.html'; ?>
