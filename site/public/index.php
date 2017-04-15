@@ -12,8 +12,8 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
   <head>
     <meta charset='utf-8' />
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
-    <title>Shammel Lee — Software Engineer + Designer</title>
-    <meta name='description' content='Shammel Lee' />
+    <title>Shammel Lee — Software Engineer + Product Designer</title>
+    <meta name='description' content='Shammel Lee - Software Engineer + Product Designer' />
     <meta name='viewport' content='width=device-width, initial-scale=1, minimal-ui' />
     <meta name='apple-mobile-web-app-capable' content='yes' />
     <meta name='apple-mobile-web-app-title' content='Shammel Lee' />
@@ -35,7 +35,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='row'>
           <div class='col-md-10 col-md-offset-1'>
             <h1 class='head'>SHAMMEL LEE</h1>
-            <h2 class='subhead'>SOFTWARE ENGINEER + DESIGNER</h2>
+            <h2 class='subhead'>SOFTWARE ENGINEER<br />PRODUCT DESIGNER</h2>
           </div>
         </div>
       </div>
@@ -85,12 +85,29 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         </div>
       </div>
 
+      <div class="row">
+        <div class="col-md-7 col-md-offset-1">
+          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_visual_design.png") ?>' alt='Web: Concept Tool Rental App - Visual Design'>
+          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_maps.png") ?>' alt='Web: Concept Tool Rental App - Maps'>
+          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_scenarios.png") ?>' alt='Web: Concept Tool Rental App - Scenarios'>
+          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_wireframes_landing_page.png") ?>' alt='Web: Concept Tool Rental App - Landing Page Wireframe'>
+        </div>
+        <div class="col-md-3">
+          <h3>Concept Tool Rental Site</h3>
+          <ul>
+            <li>Product Design</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("cinegram.gif") ?>' alt='Web: Movie Rating App Prototype' /></div>
         <div class='col-md-3'>
           <h3>Movie Rating App</h3>
           <ul>
-            <li>Design</li>
+            <li>Product Design</li>
             <li>Development</li>
           </ul>
         </div>
@@ -103,7 +120,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-3'>
           <h3>Fashion Trend App</h3>
           <ul>
-            <li>Design</li>
+            <li>Product Design</li>
           </ul>
         </div>
       </div>
@@ -115,7 +132,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-3'>
           <h3>B&amp;D Kiosk Front-end</h3>
           <ul>
-            <li>Design</li>
+            <li>Product Design</li>
             <li>Development</li>
           </ul>
         </div>
@@ -128,7 +145,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-3'>
           <h3>B&amp;D Kiosk Back-end</h3>
           <ul>
-            <li>Design</li>
+            <li>Product Design</li>
             <li>Development</li>
           </ul>
         </div>
@@ -147,7 +164,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-3'>
           <h3>Cloud File Manager App</h3>
           <ul>
-            <li>Design</li>
+            <li>Product Design</li>
             <li>Development</li>
           </ul>
         </div>
@@ -167,7 +184,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-3'>
           <h3>Onboarding Website</h3>
           <ul>
-            <li>Design</li>
+            <li>Product Design</li>
             <li>Development</li>
             <li>Motion Design</li>
           </ul>
@@ -183,7 +200,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-3'>
           <h3>Financial Recruiting Platform</h3>
           <ul>
-            <li>Design</li>
+            <li>Product Design</li>
             <li>Development</li>
           </ul>
         </div>
@@ -235,7 +252,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         <div class='col-md-3'>
           <h3>Real Estate App Prototype</h3>
           <ul>
-            <li>Design</li>
+            <li>Product Design</li>
             <li>Development</li>
           </ul>
         </div>
