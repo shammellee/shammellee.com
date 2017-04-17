@@ -29,16 +29,18 @@ h2.subhead
 }
 
 @media(min-width:321px){.infoLinks li{display:inline-block}}
+
 .infoLinks li{margin-bottom:20px}
 .blurbs{background:#EEEFF1;}
-.blurbsFooter{background:#D0D4DD;padding:85px 15px 15px;margin-bottom:0px}
-.blurbs h2,.work_section h2,.work_section h3
+.blurbsFooter{background:#D0D4DD;margin-bottom:0px}
+.section_title
+,.work_section h3
 {
   font-family:'Titillium Web','sans-serif';
   font-weight:600;
 }
 
-.about_section h2,.work_section h2{margin-bottom:20px}
+.section_title{margin-bottom:20px;padding-top:20px;}
 
 .pull_tab
 {
@@ -58,7 +60,7 @@ h2.subhead
 .pull_tab__work{border-top-color:#FFFFFF;}
 .pull_tab__about{border-top-color:#EEEFF1;}
 
-.work_section.web ul{list-style:none;padding:0}
+.work_section ul{list-style:none;padding:0}
 .project_img{width:650px}
 .navbar{margin-bottom:0}
 .image_set_image{margin-bottom:10px}
