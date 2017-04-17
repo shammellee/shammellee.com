@@ -20,7 +20,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
     <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
 
     <link rel='shortcut icon' type='image/x-icon' href='<?= get_media("favicon.ico") ?>' />
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600' rel='stylesheet' type='text/css'>
 
     <link rel='stylesheet' href='<?= get_css("bootstrap.min.css") ?>'>
     <link rel='stylesheet' href='<?= get_css("bootstrap-theme.min.css") ?>'>
@@ -337,6 +337,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
           <div class='col-md-5 col-md-offset-1'>
             <img class='img-responsive' src='<?= get_media("experience_map.jpg") ?>' alt='Experience Map' />
           </div>
+          <div class="image_spacer"></div>
           <div class='col-md-5'>
             <p>
               Engineering is linked with “left brain” thinking and design, with

@@ -21,6 +21,15 @@ h2.subhead
   text-align:center;
 }
 
+.image_spacer{height:25px;}
+
+/* desktop 1 */
+@media(min-width:1024px)
+{
+  .image_spacer{display:none;}
+}
+
+/* desktop 2 */
 @media(min-width:768px)
 {
   .header .subhead{top:-22px}
@@ -28,7 +37,11 @@ h2.subhead
   h2.subhead{font-size:1.68em;line-height:1;text-align:left}
 }
 
-@media(min-width:321px){.infoLinks li{display:inline-block}}
+/* tablet */
+@media(min-width:321px)
+{
+  .infoLinks li{display:inline-block}
+}
 
 .infoLinks li{margin-bottom:20px}
 .blurbs{background:#EEEFF1;}
