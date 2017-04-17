@@ -1,35 +1,63 @@
 html,body{color:#5E5E5E;font-family:Helvetica,Arial,sans-serif}
 .clearfix{clear:both}
 .titillium{font-family: 'Titillium Web', 'sans-serif'}
-.title{color:#B0B2B4;padding:25px 0;background-color:#313542}
-.title .subhead{position:relative;top:-11px}
-h1.head{font-family:'Titillium Web','sans-serif';font-size:2.6em;line-height:.9em;text-align:center}
-h2.subhead{font-family:'Titillium Web','sans-serif';font-size:1.1em;line-height:1.2;text-align:center}
+.header{color:#B0B2B4;background-color:#313542}
+.header .header_container{padding-top:25px;}
+.header .subhead{position:relative;top:-11px}
+
+h1.head
+{
+  font-family:'Titillium Web','sans-serif';
+  font-size:2.6em;
+  line-height:.9em;
+  text-align:center;
+}
+
+h2.subhead
+{
+  font-family:'Titillium Web','sans-serif';
+  font-size:1.1em;
+  line-height:1.2;
+  text-align:center;
+}
+
 @media(min-width:768px)
 {
-  .title .subhead{top:-22px}
+  .header .subhead{top:-22px}
   h1.head{font-size:4em;text-align:left}
   h2.subhead{font-size:1.68em;line-height:1;text-align:left}
 }
+
 @media(min-width:321px){.infoLinks li{display:inline-block}}
 .infoLinks li{margin-bottom:20px}
-.blurbs{background:#EEEFF1;padding:15px;margin-bottom:30px}
-.blurbsFooter{background:#EEEFF1;padding:50px 15px 15px;margin-bottom:0px}
-.blurbs h2,.work_section h2,.work_section h3{font-family:'Titillium Web','sans-serif';font-weight:600}
-.work_section{padding-bottom:30px}
-.about_section h2,.work_section h2{margin-bottom:50px}
-.about_pull_tab
+.blurbs{background:#EEEFF1;}
+.blurbsFooter{background:#D0D4DD;padding:85px 15px 15px;margin-bottom:0px}
+.blurbs h2,.work_section h2,.work_section h3
 {
-  background-color:#EEEFF1;
-  border-radius:50%;
+  font-family:'Titillium Web','sans-serif';
+  font-weight:600;
+}
+
+.about_section h2,.work_section h2{margin-bottom:20px}
+
+.pull_tab
+{
+  border-left:35px solid transparent;
+  border-right:35px solid transparent;
+  border-top:32px solid;
+  bottom:-32px;
   display:block;
-  height:80px;
+  height:0;
   margin-left:auto;
   margin-right:auto;
   position:relative;
-  top:45px;
-  width:80px
+  width:0;
 }
+
+.pull_tab__header{border-top-color:#313542;}
+.pull_tab__work{border-top-color:#FFFFFF;}
+.pull_tab__about{border-top-color:#EEEFF1;}
+
 .work_section.web ul{list-style:none;padding:0}
 .project_img{width:650px}
 .navbar{margin-bottom:0}
