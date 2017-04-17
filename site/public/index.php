@@ -43,10 +43,10 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <span class='pull_tab pull_tab__header'>&nbsp;</span>
     </div>
 
-    <div class='container work_section web'>
+    <div class='container work_section'>
       <div class='row'>
         <div class='col-md-10 col-md-offset-1'>
-          <h2>Selected Work</h2>
+          <h2 class='section_title'>Selected Work</h2>
         </div>
       </div>
 
@@ -330,7 +330,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='container about_section'>
         <div class='row'>
           <div class='col-md-10 col-md-offset-1'>
-            <h2>About</h2>
+            <h2 class='section_title'>About</h2>
           </div>
         </div>
         <div class='row'>
@@ -363,19 +363,28 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
     </div>
 
     <div class='container-fluid blurbsFooter'>
-      <div class='container'>
-        <ul class='list-inline text-center infoLinks'>
-          <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://github.shammellee.com' target='_blank'>GitHub</a></li>
-          <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://stackoverflow.com/users/3682217/shammel-lee' target='_blank'>Stack Overflow</a></li>
-          <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://dribbble.shammellee.com' target='_blank'>Dribbble</a></li>
-          <li><a class='btn btn-primary btn-sm' rel='nofollow' href='/resume' target='_blank'>Resumé</a></li>
-          <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://linkedin.shammellee.com' target='_blank'>LinkedIn</a></li>
-          <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://twitter.shammellee.com' target='_blank'>Twitter</a></li>
-          <li><a class='btn btn-primary btn-sm' href='mailt&#111;&#58;%&#54;8&#111;%&#54;&#67;le%&#55;&#50;&#64;s&#104;%61m&#109;ell&#37;65&#37;65&#46;co&#109;'>&#69;m&#97;il</a></li>
-        </ul>
+      <div class='container contact_section'>
+        <div class='row'>
+          <div class='col-md-10 col-md-offset-1'>
+            <h2 class='section_title'>Contact</h2>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-md-10 col-md-offset-1'>
+            <ul class='list-inline infoLinks'>
+              <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://github.shammellee.com' target='_blank'>GitHub</a></li>
+              <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://stackoverflow.com/users/3682217/shammel-lee' target='_blank'>Stack Overflow</a></li>
+              <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://dribbble.shammellee.com' target='_blank'>Dribbble</a></li>
+              <li><a class='btn btn-primary btn-sm' rel='nofollow' href='/resume' target='_blank'>Resumé</a></li>
+              <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://linkedin.shammellee.com' target='_blank'>LinkedIn</a></li>
+              <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://twitter.shammellee.com' target='_blank'>Twitter</a></li>
+              <li><a class='btn btn-primary btn-sm' href='mailt&#111;&#58;%&#54;8&#111;%&#54;&#67;le%&#55;&#50;&#64;s&#104;%61m&#109;ell&#37;65&#37;65&#46;co&#109;'>&#69;m&#97;il</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js" integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=" crossorigin="anonymous"></script>
+    <script src='https://code.jquery.com/jquery-1.11.0.min.js' integrity='sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=' crossorigin='anonymous'></script>
     <script src='<?= get_js("vendor/bootstrap.min.js") ?>'></script>
     <script src='<?= get_js("main.js") ?>'></script>
     <script>
