@@ -3,7 +3,7 @@ error_reporting(0);
 
 define('DEBUG_MODE',false);
 define('STATIC_ASSET_PATH',DEBUG_MODE ? '' : 'http://static.shammellee.com');
-define('CSS_ASSET_VERSION',DEBUG_MODE ? '' : '/' . '20170417_183626');
+define('CSS_ASSET_VERSION',DEBUG_MODE ? '' : '/' . '20170417_200758');
 define('DOC_ASSET_VERSION',DEBUG_MODE ? '' : '/' . '20170415_020648');
 define('JS_ASSET_VERSION',DEBUG_MODE ? '' : '/' . '20170310_114340');
 define('MEDIA_ASSET_VERSION',DEBUG_MODE ? '' : '/' . '20170310_114340');
