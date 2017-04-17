@@ -3,7 +3,7 @@ error_reporting(0);
 
 define('DS',DIRECTORY_SEPARATOR);
 define('STATIC_ASSET_PATH','http://static.shammellee.com');
-define('CSS_ASSET_VERSION','20170415_005619');
+define('CSS_ASSET_VERSION','20170417_183626');
 define('DOC_ASSET_VERSION','20170415_020648');
 define('JS_ASSET_VERSION','20170310_114340');
 define('MEDIA_ASSET_VERSION','20170310_114340');
