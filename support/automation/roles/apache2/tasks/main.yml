@@ -1,0 +1,51 @@
+---
+- name: Install Apache 2
+  apt:
+    name             : "{{item}}"
+    update_cache     : yes
+    cache_valid_time : "{{apt_cache_valid_seconds}}"
+  with_items:
+  - apache2
+  - libapache2-modsecurity
+
+- name: Copy Main Apache Config File
+  template:
+    src  : apache2.conf.j2
+    dest : "{{apache_path}}/apache2.conf"
+  notify: Restart Apache
+
+- name: Copy dir Config File
+  copy:
+    src  : dir.conf
+    dest : "{{apache_path}}/mods-available/dir.conf"
+  notify: Restart Apache
+
+- name: Enable mod_rewrite
+  file:
+    src   : "{{apache_path}}/mods-available/rewrite.load"
+    dest  : "{{apache_path}}/mods-enabled/rewrite.load"
+    state : link
+  notify: Restart Apache
+
+- name: Remove Default Apache Virtual Host Config Files
+  file:
+    path  : "{{apache_path}}/sites-enabled/000-default.conf"
+    state : absent
+  notify: Restart Apache
+
+- name: Remove Default modsecurity Config File
+  file:
+    path  : /etc/modsecurity/modsecurity.conf-recommended
+    state : absent
+  notify: Restart Apache
+
+- name: Add modsecurity Config File
+  copy:
+    src  : modsecurity.conf
+    dest : /etc/modsecurity/modsecurity.conf
+  notify: Restart Apache
+
+- name: Enable Incoming Traffic to Apache
+  ufw:
+    rule : allow
+    name : Apache Full

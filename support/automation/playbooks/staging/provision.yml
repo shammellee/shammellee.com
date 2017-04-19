@@ -1,0 +1,53 @@
+---
+- name: Provision EC2 Staging Instances
+  hosts: localhost
+  connection: local
+  gather_facts: False
+  tasks:
+    - name: Launch EC2 Staging Instances
+      ec2:
+        key_name         : shammel
+        instance_type    : t2.micro
+        image            : ami-f4cc1de2
+        wait             : yes
+        wait_timeout     : 300
+        group            : ['http_all','icmp_all','ssh_all']
+        vpc_subnet_id    : subnet-56ca520f
+        region           : us-east-1
+        assign_public_ip : yes
+        exact_count      : 1
+        count_tag:
+          environment: staging
+        instance_tags:
+          Name: personal site
+          environment: staging
+          domain: "{{domain}}"
+      register: ec2
+
+    - name: Add EC2 Instances to ec2_staging Group
+      add_host:
+        name: "{{item.public_ip}}"
+        groups: ec2_staging
+      with_items: "{{ec2.tagged_instances}}"
+      no_log: True
+
+    - name: Wait for SSH Ready
+      wait_for:
+        host: "{{item.public_ip}}"
+        port: 22
+        timeout: 300
+      with_items: "{{ec2.tagged_instances}}"
+      no_log: True
+
+- name: Configure Staging Hosts
+  hosts: ec2_staging
+  become: True
+  gather_facts: False
+  roles:
+    - common
+    - apache2
+    - php
+    - site
+
+  handlers:
+    - include: "{{playbook_dir}}/apache/handlers/main.yml"

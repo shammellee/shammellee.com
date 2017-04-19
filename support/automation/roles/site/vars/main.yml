@@ -1,0 +1,5 @@
+---
+apache_path  : /etc/apache2
+apache_user  : www-data
+apache_group : "{{apache_user}}"
+apache_home  : /var/www

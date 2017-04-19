@@ -1,0 +1,49 @@
+---
+- name: Add {{domain}} Apache Config File
+  template:
+    src  : shammellee.com.conf.j2
+    dest : "{{apache_path}}/sites-available/shammellee.com.conf"
+
+- name: Enable {{domain}} site
+  file:
+    src   : "{{apache_path}}/sites-available/shammellee.com.conf"
+    dest  : "{{apache_path}}/sites-enabled/shammellee.com.conf"
+    state : link
+  notify: Restart Apache
+
+- name: Create SSH Directory
+  file:
+    path  : "{{apache_home}}/.ssh"
+    state : directory
+    owner: "{{apache_user}}"
+    group: "{{apache_user}}"
+
+- name: Copy SSH Keys
+  become_user: "{{apache_user}}"
+  copy:
+    src  : "{{item.src_key}}"
+    dest : "{{apache_home}}/.ssh/{{item.dest_key}}"
+    mode : "{{item.mode}}"
+  with_items:
+    - src_key  : "{{github_public_deploy_key_path}}"
+      dest_key : id_rsa.pub
+      mode     : '0444'
+    - src_key  : "{{github_private_deploy_key_path}}"
+      dest_key : id_rsa
+      mode     : '0400'
+
+- name: Create Git Working Tree Directory
+  file:
+    path  : "{{git_working_tree_path}}"
+    state : directory
+    owner : "{{apache_user}}"
+    group : "{{apache_user}}"
+
+- name: Clone Git Repo
+  become_user: "{{apache_user}}"
+  git:
+    repo           : "{{git_repo_url}}"
+    dest           : "{{git_working_tree_path}}"
+    accept_hostkey : yes
+  tags:
+    - git_clone

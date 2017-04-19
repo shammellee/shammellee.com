@@ -1,0 +1,11 @@
+---
+- name: Install PHP
+  apt:
+    name: "{{item}}"
+    update_cache: yes
+    cache_valid_time: "{{apt_cache_valid_seconds}}"
+  with_items:
+    - php
+    - libapache2-mod-php
+    - php-mcrypt
+    - php-cli
