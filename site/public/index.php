@@ -392,9 +392,10 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       $(function()
       {
         $.getJSON('http://freegeoip.net/json/',function(result){
-          if(result && result.country_code !== 'US')
+          if(result && result.country_code !== 'US' && result.country_code !== 'CA')
           {
-            alert('This site is limited to viewers in the United States.');
+            console.log(result);
+            alert('This site is limited to viewers in the United States and Canada.\n\nViewer Location: ' + result.country_name);
           }
         });
       });
