@@ -52,10 +52,10 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
 
       <div class="row">
         <div class="col-md-7 col-md-offset-1">
-          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_visual_design.png") ?>' alt='Web: Concept Tool Rental App - Visual Design'>
-          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_maps.png") ?>' alt='Web: Concept Tool Rental App - Maps'>
-          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_scenarios.png") ?>' alt='Web: Concept Tool Rental App - Scenarios'>
-          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_wireframes_landing_page.png") ?>' alt='Web: Concept Tool Rental App - Landing Page Wireframe'>
+          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_visual_design.png") ?>' alt='Web: Concept Tool Rental Site - Visual Design'>
+          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_maps.png") ?>' alt='Web: Concept Tool Rental Site - Maps'>
+          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_scenarios.png") ?>' alt='Web: Concept Tool Rental Site - Scenarios'>
+          <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_wireframes_landing_page.png") ?>' alt='Web: Concept Tool Rental Site - Landing Page Wireframe'>
         </div>
         <div class="col-md-3">
           <h3>Concept Tool Rental Site</h3>
@@ -147,7 +147,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
           </video>
         </div>
         <div class='col-md-3'>
-          <h3>Onboarding Website</h3>
+          <h3>Onboarding Site</h3>
           <ul>
             <li>Product Design</li>
             <li>Development</li>
@@ -228,13 +228,13 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'>
           <a href='http://shelleygoldberg.com/' target='_blank'>
-            <video class='img-responsive' width='650' height='488' autoplay controls loop muted playsinline alt='Web: Shelley Goldberg'> <!--video only autoplays on mobile with muted and playsinline attributes-->
+            <video class='img-responsive' width='650' height='488' autoplay controls loop muted playsinline alt='Web: Shelley Goldberg Site'> <!--video only autoplays on mobile with muted and playsinline attributes-->
               <source src='<?= get_media("shelley_goldberg.mp4") ?>' type='video/mp4'>
             </video>
           </a>
         </div>
         <div class='col-md-3'>
-          <h3>Shelley Goldberg Website</h3>
+          <h3>Shelley Goldberg Site</h3>
           <ul>
             <li>Development</li>
             <li>CMS Development</li>
@@ -245,9 +245,9 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("theten.gif") ?>' alt='Web: theTEN' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("theten.gif") ?>' alt='Web: theTEN Site' /></div>
         <div class='col-md-3'>
-          <h3>theTEN Website</h3>
+          <h3>theTEN Site</h3>
           <ul>
             <li>Retouching</li>
             <li>Design</li>
@@ -259,9 +259,9 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("levinson_tractenberg.jpg") ?>' alt='Web: Levinson Tractenberg' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("levinson_tractenberg.jpg") ?>' alt='Web: Levinson Tractenberg Site' /></div>
         <div class='col-md-3'>
-          <h3>Levinson Tractenberg Website</h3>
+          <h3>Levinson Tractenberg Site</h3>
           <ul>
             <li>Development</li>
           </ul>
@@ -271,23 +271,9 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("keggy.jpg") ?>' alt='Web: Keggy' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("keggy.jpg") ?>' alt='Web: Keggy Site' /></div>
         <div class='col-md-3'>
-          <h3>Keggy Website</h3>
-          <ul>
-            <li>Retouching</li>
-            <li>Design</li>
-            <li>Development</li>
-          </ul>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("helen_wang.jpg") ?>' alt='Web: Helen Wang' /></div>
-        <div class='col-md-3'>
-          <h3>Helen Wang Website</h3>
+          <h3>Keggy Site</h3>
           <ul>
             <li>Retouching</li>
             <li>Design</li>
@@ -299,9 +285,23 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("peter_han.jpg") ?>' alt='Web: Peter Han' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("helen_wang.jpg") ?>' alt='Web: Helen Wang Site' /></div>
         <div class='col-md-3'>
-          <h3>Peter Han Website</h3>
+          <h3>Helen Wang Site</h3>
+          <ul>
+            <li>Retouching</li>
+            <li>Design</li>
+            <li>Development</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class='row'>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("peter_han.jpg") ?>' alt='Web: Peter Han Site' /></div>
+        <div class='col-md-3'>
+          <h3>Peter Han Site</h3>
           <ul>
             <li>Design</li>
             <li>Development</li>
@@ -312,9 +312,9 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <hr />
 
       <div class='row'>
-        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("grand_large.jpg") ?>' alt='Web: Grand Large' /></div>
+        <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("grand_large.jpg") ?>' alt='Web: Grand Large Site' /></div>
         <div class='col-md-3'>
-          <h3>Grand Large Website</h3>
+          <h3>Grand Large Site</h3>
           <ul>
             <li>Design</li>
             <li>Development</li>
