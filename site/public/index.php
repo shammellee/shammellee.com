@@ -367,7 +367,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='container contact_section'>
         <div class='row'>
           <div class='col-md-10 col-md-offset-1'>
-            <h2 class='section_title'>Contact</h2>
+            <h2 class='section_title'>Info</h2>
           </div>
         </div>
         <div class='row'>
