@@ -11,22 +11,10 @@ if(getenv('HOST_ENVIRONMENT') === 'development')
 
 $static_assets =
 [
-  'css' =>
-  [
-    'version' => '20170417_200758'
-  ]
-  ,'doc' =>
-  [
-    'version' => '20170415_020648'
-  ]
-  ,'js' =>
-  [
-    'version' => '20170310_114340'
-  ]
-  ,'media' =>
-  [
-    'version' => '20170310_114340'
-  ]
+  'css'    => ['version' => '20170615_115650']
+  ,'doc'   => ['version' => '20170415_020648']
+  ,'js'    => ['version' => '20170310_114340']
+  ,'media' => ['version' => '20170310_114340']
 ];
 
 define('STATIC_ASSET_PATH',HOST_ENVIRONMENT === 'development' ? '' : 'http://static.shammellee.com');

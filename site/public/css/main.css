@@ -11,6 +11,7 @@ h1.head
   font-size:2.6em;
   line-height:.9em;
   text-align:center;
+  text-transform:uppercase;
 }
 
 h2.subhead
@@ -19,17 +20,24 @@ h2.subhead
   font-size:1.1em;
   line-height:1.2;
   text-align:center;
+  text-transform:uppercase;
 }
 
-.image_spacer{height:25px;}
+.image_spacer{height:25px}
 
 /* desktop 1 */
 @media(min-width:1024px)
 {
-  .image_spacer{display:none;}
+  .image_spacer{display:none}
 }
 
 /* desktop 2 */
+@media(min-width:992px)
+{
+  .project_title{margin-top:0}
+}
+
+/* desktop 3 */
 @media(min-width:768px)
 {
   .header .subhead{top:-22px}
@@ -44,7 +52,7 @@ h2.subhead
 }
 
 .infoLinks li{margin-bottom:20px}
-.blurbs{background:#EEEFF1;}
+.blurbs{background:#EEEFF1}
 .blurbsFooter{background:#D0D4DD;margin-bottom:0px}
 .section_title
 ,.work_section h3
@@ -53,7 +61,7 @@ h2.subhead
   font-weight:600;
 }
 
-.section_title{margin-bottom:20px;padding-top:20px;}
+.section_title{margin-bottom:20px;padding-top:20px}
 
 .pull_tab
 {
@@ -69,11 +77,21 @@ h2.subhead
   width:0;
 }
 
-.pull_tab__header{border-top-color:#313542;}
-.pull_tab__work{border-top-color:#FFFFFF;}
-.pull_tab__about{border-top-color:#EEEFF1;}
+.pull_tab__header{border-top-color:#313542}
+.pull_tab__work{border-top-color:#FFFFFF}
+.pull_tab__about{border-top-color:#EEEFF1}
 
 .work_section ul{list-style:none;padding:0}
 .project_img{width:650px}
+.project_subtitle{margin-bottom:5px}
+.project_tag{
+  background:#EEEFF1;
+  border-radius:20px;
+  display:inline-block;
+  font-size:0.8em;
+  margin-bottom:5px;
+  margin-right:5px;
+  padding:3px 10px;
+}
 .navbar{margin-bottom:0}
 .image_set_image{margin-bottom:10px}

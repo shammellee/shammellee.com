@@ -34,8 +34,8 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='container header_container'>
         <div class='row'>
           <div class='col-md-10 col-md-offset-1'>
-            <h1 class='head'>SHAMMEL LEE</h1>
-            <h2 class='subhead'>SOFTWARE ENGINEER<br />PRODUCT DESIGNER</h2>
+            <h1 class='head'>Shammel Lee</h1>
+            <h2 class='subhead'>Software Engineer<br />Product Designer</h2>
           </div>
         </div>
       </div>
@@ -58,9 +58,24 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
           <img class="img-responsive image_set_image" src='<?= get_media("toolsummit_wireframes_landing_page.png") ?>' alt='Web: Concept Tool Rental Site - Landing Page Wireframe'>
         </div>
         <div class="col-md-3">
-          <h3>Concept Tool Rental Site</h3>
-          <ul>
-            <li>Product Design</li>
+          <h3 class='project_title'>ToolSummit</h3>
+
+          <p>
+            A concept website for a tool rental site that lets users find power
+            tools they can rent from others. The requirement was to add
+            features that would be important and make the transaction process
+            as smooth as possible.
+          </p>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Product Design</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>OmniGraffle</li>
+            <li class='project_tag'>Sketch</li>
           </ul>
         </div>
       </div>
@@ -70,10 +85,32 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("cinegram.gif") ?>' alt='Web: Movie Rating App Prototype' /></div>
         <div class='col-md-3'>
-          <h3>Movie Rating App</h3>
-          <ul>
-            <li>Product Design</li>
-            <li>Development</li>
+          <h3 class='project_title'>CineGram</h3>
+          <p>
+            A prototype for a movie rating app. The bar chart pulls data from
+            an API every minute and updates the table below as well.
+          </p>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Product Design</li>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>OmniGraffle</li>
+            <li class='project_tag'>Illustrator</li>
+            <li class='project_tag'>Sketch</li>
+            <li class='project_tag'>Framer</li>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Apache</li>
+            <li class='project_tag'>PHP</li>
+            <li class='project_tag'>Perl</li>
+            <li class='project_tag'>MongoDB</li>
+            <li class='project_tag'>jQuery</li>
+            <li class='project_tag'>D3.js</li>
+            <li class='project_tag'>GSAP</li>
           </ul>
         </div>
       </div>
@@ -83,9 +120,22 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><a href='<?= get_media("lotus_large.png") ?>' target='_blank'><img class='img-responsive' src='<?= get_media("lotus.png") ?>' alt='Mobile: App Prototype' /></a></div>
         <div class='col-md-3'>
-          <h3>Fashion Trend App</h3>
-          <ul>
-            <li>Product Design</li>
+          <h3 class='project_title'>Lotus</h3>
+          <p>
+             A prototype for a fashion trend app. Here, I focused on creating a
+             simple and intuitive experience with a minimal UI.
+          </p>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Product Design</li>
+          </ul>
+
+          <h4>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>OmniGraffle</li>
+            <li class='project_tag'>Sketch</li>
+            <li class='project_tag'>Illustrator</li>
           </ul>
         </div>
       </div>
@@ -95,10 +145,48 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("bow_and_drape_kiosk_frontend.gif") ?>' alt='Mobile: B&amp;D Kiosk' /></div>
         <div class='col-md-3'>
-          <h3>B&amp;D Kiosk Front-end</h3>
-          <ul>
-            <li>Product Design</li>
-            <li>Development</li>
+          <h3 class='project_title'>B&amp;D Kiosk Front-end</h3>
+          <p>
+            The front-end of the Bow &amp; Drape Customization Kiosk. Customers
+            used this web app on an iPad to place orders. Since customers
+            weren't tech-savvy, they preferred to customize their orders in
+            person rather than customize from within the app. I added the
+            ability for customers to take photos of their designs with the iPad
+            from within the app. As a result, orders were created more
+            accurately and there were fewer returns.  This allowed Bow &amp;
+            Drape to increase profits during the holiday season.
+          </p>
+
+          <p>
+            A few of the major challenges were reducing the photo's file size
+            and correcting the photo's orientation. The size of the raw photos
+            were so large, they would cause transactions to stall. I reduced
+            the file size dramatically by lowering the image quality as well
+            as scaling the image down. This led to transations being sent
+            instantly.
+          </p>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Product Design</li>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>OmniGraffle</li>
+            <li class='project_tag'>Illustrator</li>
+            <li class='project_tag'>Sketch</li>
+            <li class='project_tag'>Framer</li>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>Backbone.js</li>
+            <li class='project_tag'>Marionette.js</li>
+            <li class='project_tag'>jQuery</li>
+            <li class='project_tag'>Lodash</li>
+            <li class='project_tag'>Handlebars.js</li>
+            <li class='project_tag'>Firebase</li>
           </ul>
         </div>
       </div>
@@ -108,10 +196,43 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("bow_and_drape_kiosk_backend.gif") ?>' alt='Web: B&amp;D Kiosk Back-end' /></div>
         <div class='col-md-3'>
-          <h3>B&amp;D Kiosk Back-end</h3>
-          <ul>
-            <li>Product Design</li>
-            <li>Development</li>
+          <h3 class='project_title'>B&amp;D Kiosk Back-end</h3>
+          <p>
+            The back-end of the Bow &amp; Drape Customization Kiosk. Employees
+            used this system to monitor and process incoming orders in
+            real-time. This allowed orders to be placed and received within an
+            hour, which was crucial during the holiday season. Several
+            microservices were built to handle things like email notifications,
+            logging, and Slack bots.
+          </p>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Product Design</li>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>OmniGraffle</li>
+            <li class='project_tag'>Illustrator</li>
+            <li class='project_tag'>Sketch</li>
+            <li class='project_tag'>Framer</li>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>Backbone.js</li>
+            <li class='project_tag'>Marionette.js</li>
+            <li class='project_tag'>jQuery</li>
+            <li class='project_tag'>Lodash</li>
+            <li class='project_tag'>Handlebars.js</li>
+            <li class='project_tag'>Moment.js</li>
+            <li class='project_tag'>Firebase</li>
+            <li class='project_tag'>Twilio</li>
+            <li class='project_tag'>NGINX</li>
+            <li class='project_tag'>PHP</li>
+            <li class='project_tag'>AWS EC2/S3/CloudFront</li>
+            <li class='project_tag'>Ansible</li>
           </ul>
         </div>
       </div>
@@ -127,10 +248,29 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
           </video>
         </div>
         <div class='col-md-3'>
-          <h3>Cloud File Manager App</h3>
-          <ul>
-            <li>Product Design</li>
-            <li>Development</li>
+          <h3 class='project_title'>Cloud File Manager App</h3>
+          <p>
+          </p>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Product Design</li>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>Backbone.js</li>
+            <li class='project_tag'>jQuery</li>
+            <li class='project_tag'>Underscore.js</li>
+            <li class='project_tag'>Handlebars.js</li>
+            <li class='project_tag'>Apache</li>
+            <li class='project_tag'>PHP</li>
+            <li class='project_tag'>MySQL</li>
+            <li class='project_tag'>AWS S3</li>
           </ul>
         </div>
       </div>
@@ -147,11 +287,22 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
           </video>
         </div>
         <div class='col-md-3'>
-          <h3>Onboarding Site</h3>
-          <ul>
-            <li>Product Design</li>
-            <li>Development</li>
-            <li>Motion Design</li>
+          <h3 class='project_title'>Onboarding Site</h3>
+          <p>
+          </p>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Product Design</li>
+            <li class='project_tag'>Development</li>
+            <li class='project_tag'>Motion Design</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Illustrator</li>
+            <li class='project_tag'>After Effects</li>
+            <li class='project_tag'>Logic Pro</li>
           </ul>
         </div>
       </div>
@@ -163,10 +314,27 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("vm_ubs.png") ?>' alt='Web App: Financial Recruiting App' /></div>
         <div class='col-md-3'>
-          <h3>Financial Recruiting Platform</h3>
-          <ul>
-            <li>Product Design</li>
-            <li>Development</li>
+          <h3 class='project_title'>Financial Recruiting Platform</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Product Design</li>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Illustrator</li>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>Backbone.js</li>
+            <li class='project_tag'>jQuery</li>
+            <li class='project_tag'>Underscore.js</li>
+            <li class='project_tag'>D3.js</li>
+            <li class='project_tag'>Apache</li>
+            <li class='project_tag'>PHP</li>
+            <li class='project_tag'>MySQL</li>
           </ul>
         </div>
       </div>
@@ -178,9 +346,19 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><a href='projects/amex/costco/business.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_media("amex_costco.png") ?>' alt='Web: AmEx Landing Page' /></a></div>
         <div class='col-md-3'>
-          <h3>AmEx Landing Page</h3>
-          <ul>
-            <li>Front-End Development</li>
+          <h3 class='project_title'>AmEx Landing Page</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Front-End Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>jQuery</li>
           </ul>
         </div>
       </div>
@@ -190,9 +368,19 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><a href='projects/amex/cross_sell/index.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_media("amex_cross_sell.png") ?>' alt='Web: AmEx Landing Page' /></a></div>
         <div class='col-md-3'>
-          <h3>AmEx Landing Page</h3>
-          <ul>
-            <li>Front-End Development</li>
+          <h3 class='project_title'>AmEx Landing Page</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Front-End Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>jQuery</li>
           </ul>
         </div>
       </div>
@@ -202,9 +390,19 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><a href='projects/amex/resource_center/index.html' rel='nofollow' target='_blank'><img class='img-responsive' src='<?= get_media("amex_resource_center.png") ?>' alt='Web: AmEx Microsite' /></a></div>
         <div class='col-md-3'>
-          <h3>AmEx Microsite</h3>
-          <ul>
-            <li>Front-End Development</li>
+          <h3 class='project_title'>AmEx Microsite</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Front-End Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>jQuery</li>
           </ul>
         </div>
       </div>
@@ -215,10 +413,17 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><a href='projects/concepts/001.php' target='_blank'><img class='img-responsive' src='<?= get_media("app_concept_01.png") ?>' alt='Web: Real Estate App Prototype' /></a></div>
         <div class='col-md-3'>
-          <h3>Real Estate App Prototype</h3>
-          <ul>
-            <li>Product Design</li>
-            <li>Development</li>
+          <h3 class='project_title'>Real Estate App Prototype</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Product Design</li>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Illustrator</li>
           </ul>
         </div>
       </div>
@@ -234,10 +439,19 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
           </a>
         </div>
         <div class='col-md-3'>
-          <h3>Shelley Goldberg Site</h3>
-          <ul>
-            <li>Development</li>
-            <li>CMS Development</li>
+          <h3 class='project_title'>Shelley Goldberg Site</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Development</li>
+            <li class='project_tag'>CMS Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>ActionScript</li>
+            <li class='project_tag'>PHP</li>
+            <li class='project_tag'>MySQL</li>
           </ul>
         </div>
       </div>
@@ -247,11 +461,23 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("theten.gif") ?>' alt='Web: theTEN Site' /></div>
         <div class='col-md-3'>
-          <h3>theTEN Site</h3>
-          <ul>
-            <li>Retouching</li>
-            <li>Design</li>
-            <li>Development</li>
+          <h3 class='project_title'>theTEN Site</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Retouching</li>
+            <li class='project_tag'>Design</li>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Photoshop</li>
+            <li class='project_tag'>Illustrator</li>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>jQuery</li>
           </ul>
         </div>
       </div>
@@ -261,9 +487,22 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("levinson_tractenberg.jpg") ?>' alt='Web: Levinson Tractenberg Site' /></div>
         <div class='col-md-3'>
-          <h3>Levinson Tractenberg Site</h3>
-          <ul>
-            <li>Development</li>
+          <h3 class='project_title'>Levinson Tractenberg Site</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>jQuery</li>
+            <li class='project_tag'>GSAP.js</li>
+            <li class='project_tag'>PHP</li>
+            <li class='project_tag'>MySQL</li>
           </ul>
         </div>
       </div>
@@ -273,11 +512,25 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("keggy.jpg") ?>' alt='Web: Keggy Site' /></div>
         <div class='col-md-3'>
-          <h3>Keggy Site</h3>
-          <ul>
-            <li>Retouching</li>
-            <li>Design</li>
-            <li>Development</li>
+          <h3 class='project_title'>Keggy Site</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Retouching</li>
+            <li class='project_tag'>Design</li>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Photoshop</li>
+            <li class='project_tag'>Illustrator</li>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>jQuery</li>
+            <li class='project_tag'>PHP</li>
+            <li class='project_tag'>MySQL</li>
           </ul>
         </div>
       </div>
@@ -287,11 +540,24 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("helen_wang.jpg") ?>' alt='Web: Helen Wang Site' /></div>
         <div class='col-md-3'>
-          <h3>Helen Wang Site</h3>
-          <ul>
-            <li>Retouching</li>
-            <li>Design</li>
-            <li>Development</li>
+          <h3 class='project_title'>Helen Wang Site</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Retouching</li>
+            <li class='project_tag'>Design</li>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Photoshop</li>
+            <li class='project_tag'>Illustrator</li>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>jQuery</li>
+            <li class='project_tag'>GSAP.js</li>
           </ul>
         </div>
       </div>
@@ -301,10 +567,22 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("peter_han.jpg") ?>' alt='Web: Peter Han Site' /></div>
         <div class='col-md-3'>
-          <h3>Peter Han Site</h3>
-          <ul>
-            <li>Design</li>
-            <li>Development</li>
+          <h3 class='project_title'>Peter Han Site</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Design</li>
+            <li class='project_tag'>Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Illustrator</li>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>jQuery</li>
+            <li class='project_tag'>GSAP.js</li>
           </ul>
         </div>
       </div>
@@ -314,11 +592,24 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
       <div class='row'>
         <div class='col-md-7 col-md-offset-1'><img class='img-responsive' src='<?= get_media("grand_large.jpg") ?>' alt='Web: Grand Large Site' /></div>
         <div class='col-md-3'>
-          <h3>Grand Large Site</h3>
-          <ul>
-            <li>Design</li>
-            <li>Development</li>
-            <li>CMS Development</li>
+          <h3 class='project_title'>Grand Large Site</h3>
+
+          <h4 class='project_subtitle'>Role</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Design</li>
+            <li class='project_tag'>Development</li>
+            <li class='project_tag'>CMS Development</li>
+          </ul>
+
+          <h4 class='project_subtitle'>Software</h4>
+          <ul class='project_tags'>
+            <li class='project_tag'>Illustrator</li>
+            <li class='project_tag'>CoffeeScript</li>
+            <li class='project_tag'>Pug</li>
+            <li class='project_tag'>Stylus</li>
+            <li class='project_tag'>jQuery</li>
+            <li class='project_tag'>PHP</li>
+            <li class='project_tag'>MySQL</li>
           </ul>
         </div>
       </div>
@@ -357,7 +648,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
               consistent products that delight users.
             </p>
           </div>
-        </div> 
+        </div>
       </div>
 
       <span class='pull_tab pull_tab__about'>&nbsp;</span>
