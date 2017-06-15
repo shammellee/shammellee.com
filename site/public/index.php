@@ -666,7 +666,7 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
             <ul class='list-inline infoLinks'>
               <li><a class='btn btn-primary btn-sm' rel='nofollow' href='/resume' target='_blank'>Resumé</a></li>
               <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://github.shammellee.com' target='_blank'>GitHub</a></li>
-              <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://stackoverflow.com/users/3682217/shammel-lee' target='_blank'>Stack Overflow</a></li>
+              <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://stackoverflow.shammellee.com' target='_blank'>Stack Overflow</a></li>
               <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://dribbble.shammellee.com' target='_blank'>Dribbble</a></li>
               <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://linkedin.shammellee.com' target='_blank'>LinkedIn</a></li>
               <li><a class='btn btn-primary btn-sm' rel='nofollow' href='http://twitter.shammellee.com' target='_blank'>Twitter</a></li>
