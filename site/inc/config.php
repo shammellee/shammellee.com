@@ -12,7 +12,7 @@ if(getenv('HOST_ENVIRONMENT') === 'development')
 $static_assets =
 [
   'css'    => ['version' => '20170615_115650']
-  ,'doc'   => ['version' => '20170415_020648']
+  ,'doc'   => ['version' => '20170617_213929']
   ,'js'    => ['version' => '20170310_114340']
   ,'media' => ['version' => '20170310_114340']
 ];
