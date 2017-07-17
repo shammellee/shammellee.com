@@ -626,10 +626,6 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
         </div>
         <div class='row'>
           <div class='col-md-5 col-md-offset-1'>
-            <img class='img-responsive' src='<?= get_media("experience_map.jpg") ?>' alt='Experience Map' />
-          </div>
-          <div class="image_spacer"></div>
-          <div class='col-md-5'>
             <p>
               Engineering is linked with “left brain” thinking and design, with
               “right brain” thinking. However, the best solution to any problem
@@ -638,6 +634,8 @@ $HIDE_WORK = explode(':',getenv('HIDE_WORK'));
               for that product. Similarly, an engineer with a design background
               will be able to create a more intuitive and appealing product.
             </p>
+          </div>
+          <div class='col-md-5'>
             <p>
               Having a deep understanding of both form and function and being
               able to speak the language of both the designer and the engineer
