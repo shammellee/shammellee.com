@@ -1,0 +1,26 @@
+---
+- name: Provision Development Hosts
+  hosts: localhost
+  gather_facts: False
+  tasks:
+    - name: Add Development Host
+      add_host:
+        ansible_host: "{{lookup('env','SL_DEVELOPMENT_HOST')}}"
+        name: "{{lookup('env','SL_DEVELOPMENT_HOST_ALIAS')}}"
+        groups: development
+      changed_when: False
+      tags:
+        - always
+
+- name: Configure Development Hosts
+  hosts: development
+  become: True
+  gather_facts: False
+  roles:
+    - common
+    - apache2
+    - php
+    - site
+
+  handlers:
+    - include: "{{playbook_dir}}/apache/handlers/main.yml"

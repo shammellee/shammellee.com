@@ -1,0 +1,17 @@
+---
+environment                  : production
+ansible_user                 : ubuntu
+ansible_ssh_private_key_file : ~/.ssh/personal_shammel.pem
+ansible_ssh_extra_args       : >
+  -o ForwardAgent=yes
+  -o StrictHostKeyChecking=no
+  -o UserKnownHostsFile=/dev/null
+  -o LogLevel=ERROR
+
+addresses:
+  - "{{domain}}"
+
+# PATHS
+
+# URLS
+

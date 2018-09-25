@@ -1,0 +1,15 @@
+---
+domain: shammellee.com
+
+# update apt cache if it's older than 15 minutes
+apt_cache_valid_seconds: 900
+
+# PATHS
+ansible_python_interpreter     : /usr/bin/python3
+git_working_tree_path          : /var/www/shammellee.com.git
+site_root_path                 : "{{git_working_tree_path}}/site/public"
+github_public_deploy_key_path  : "{{lookup('ENV','SL_GITHUB_PUBLIC_DEPLOY_KEY')}}"
+github_private_deploy_key_path : "{{lookup('ENV','SL_GITHUB_PRIVATE_DEPLOY_KEY')}}"
+
+# URLS
+git_repo_url: git@github.com:shammellee/shammellee.com.git

@@ -1,0 +1,12 @@
+---
+environment                  : development
+ansible_user                 : ubuntu
+ansible_ssh_private_key_file : "{{playbook_dir}}/{{'../' * 4}}.vagrant/machines/default/virtualbox/private_key"
+ansible_ssh_extra_args       : >
+  -o ForwardAgent=yes
+  -o StrictHostKeyChecking=no
+  -o UserKnownHostsFile=/dev/null
+  -o LogLevel=ERROR
+
+addresses:
+  - "{{lookup('env','SL_DEVELOPMENT_HOST')}}"

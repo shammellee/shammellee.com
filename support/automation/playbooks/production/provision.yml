@@ -1,0 +1,50 @@
+---
+- name: provision staging
+  hosts: localhost
+  connection: local
+  gather_facts: False
+  tasks:
+    - name: spin up ec2 instance
+      ec2:
+        key_name         : shammel
+        instance_type    : t2.micro
+        image            : ami-f4cc1de2
+        wait             : yes
+        group            : personal site
+        vpc_subnet_id    : subnet-56ca520f
+        region           : us-east-1
+        assign_public_ip : yes
+        instance_tags    :
+          Name        : personal site
+          environment : staging
+          domain      : shammellee.com
+      register: ec2
+
+    - name: debug ec2
+      debug:
+        var: ec2
+#- name         : Add Production Host
+  #hosts        : localhost
+  #connection   : local
+  #gather_facts : False
+  #tasks:
+    #- name: Add Production Host
+      #add_host:
+        #name   : "{{lookup('env','SL_PRODUCTION_HOST')}}"
+        #groups : staging
+
+#- name: Configure Production Machine
+  #hosts: production
+  #become: True
+  #gather_facts: False
+  #tasks:
+    #- name: ping
+      #ping:
+  #roles:
+    #- common
+    #- apache2
+    #- php
+    #- site
+
+  handlers:
+    - include: "{{playbook_dir}}/apache/handlers/main.yml"
